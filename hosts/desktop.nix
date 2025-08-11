@@ -1,10 +1,13 @@
+# NOTE: Run `nixos-generate-config` to create create the hardware-configuration.nix file
+#       then copy it here and rename it to `hardware-<your_target>.nix` to use it
 { config, lib, pkgs, vars, ... }:
+
 {
   imports = [
     ../core/system.nix
     ../core/services.nix
     ../core/desktop.nix
-  ] ++ lib.optional (builtins.pathExists ./hardware-configuration.nix) ./hardware-configuration.nix;
+  ] ++ lib.optional (builtins.pathExists ./hardware-desktop.nix) ./hardware-desktop.nix;
 
   # Basic NVIDIA driver setup
   services.xserver.videoDrivers = [ "nvidia" ];
