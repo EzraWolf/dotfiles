@@ -1,7 +1,7 @@
 { config, pkgs, lib, vars, ... }:
 {
-  # vars are provided by flake.nix via specialArgs
-  networking.hostName = vars.userhost;
+  # System packages are collected via modules/system.nix
+  imports = [ ../modules/system.nix ];
 
   time.timeZone = vars.timezone;
   i18n.defaultLocale = vars.locale;
@@ -24,11 +24,12 @@
 
   nixpkgs.config.allowUnfree = true;
 
-  # Bootloader (simple default, adjust to your system later)
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
 
-  # Users
+  networking.hostName = vars.computer;
+  networking.networkmanager.enable = true;
+
   users.users.${vars.username} = {
     isNormalUser = true;
     description = vars.username;
@@ -36,22 +37,16 @@
     shell = pkgs.zsh;
   };
 
-  # Core services
   services.openssh.enable = true;
-  services.printing.enable = false;
+  services.printing.enable = true;
   services.fstrim.enable = true;
   services.udisks2.enable = true;
 
-  # Networking
-  networking.networkmanager.enable = true;
-
-  # Docker (requested for system pkgs)
-  virtualisation.docker.enable = true;
-
-  # Default editor
-  programs.nano.enable = true;
-  programs.zsh.enable = true;
-
-  # System packages are collected via modules/system.nix
-  imports = [ ../modules/system.nix ];
+  fonts.packages = with pkgs; [
+    # Noto font family
+    noto-fonts
+    noto-fonts-cjk-sans
+    noto-fonts-emoji
+    nerd-fonts.symbols-only # Noto is superior but symbols are cool
+];
 }

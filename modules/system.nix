@@ -4,8 +4,8 @@
   environment.systemPackages = with pkgs; [
     nano helix      # Essential editors
     gcc make uv     # Essential build tools
+    alejandra
     gnupg openssl   # Essential security
-    openssh
     git
     zsh
     curl wget
