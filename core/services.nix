@@ -1,5 +1,10 @@
-{ config, pkgs, lib, vars, ... }:
 {
+  config,
+  pkgs,
+  lib,
+  vars,
+  ...
+}: {
   # Graphical stack basics (X11 for LXQt)
   services.xserver.enable = true;
   services.xserver.displayManager.sddm.enable = true; # Qt-based DM

@@ -1,6 +1,5 @@
 # Optional: media tools
-{ pkgs, ... }:
-{
+{pkgs, ...}: {
   home.packages = with pkgs; [
     discord
     spotify

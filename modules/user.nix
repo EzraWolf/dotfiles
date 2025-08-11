@@ -1,12 +1,20 @@
 # Core user packages (daily essentials)
-{ pkgs, vars, ... }:
 {
+  pkgs,
+  lib,
+  vars,
+  ...
+}: {
   home.packages = with pkgs; [
-    mpv zathura # Essential media tools
-    signal-desktop thunderbird
+    mpv
+    zathura # Essential media tools
+    signal-desktop
+    thunderbird
     qbittorrent
-    kate vscode
+    geany
+    vscode
     neofetch
+    bleachbit
   ];
 
   programs.kitty = {
@@ -17,7 +25,7 @@
       confirm_os_window_close = 0;
       scrollback_lines = 16384;
       enable_audio_bell = false;
-      background_opacity = 0.95;
+      background_opacity = lib.mkForce 0.8; # Some magical upstream bullshit keeps resetting this
     };
     keybindings = {
       "ctrl+c" = "copy_to_clipboard";

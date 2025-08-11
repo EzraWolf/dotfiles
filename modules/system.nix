@@ -5,14 +5,20 @@
   ...
 }: {
   environment.systemPackages = with pkgs; [
+    # Essential editors
     nano
-    helix # Essential editors
+    helix
+
+    # Essential build tools
     gcc
     cmake
-    uv # Essential build tools
+    uv
+    rustup
     alejandra
+
+    # Essential utilities
     gnupg
-    openssl # Essential security
+    openssl
     curl
     wget
     man-db
@@ -30,8 +36,11 @@
     gparted
     veracrypt
     ventoy # Ventoy is technically "unsafe" since it uses blobs.
-    bleachbit
     flameshot
+  ];
+
+  nixpkgs.config.permittedInsecurePackages = [
+    "ventoy-1.1.05"
   ];
 
   programs.git = {
@@ -45,7 +54,4 @@
   programs.zsh.enable = true;
   virtualisation.docker.enable = true;
 
-  nixpkgs.config.permittedInsecurePackages = [
-    "ventoy-1.1.05"
-  ];
 }

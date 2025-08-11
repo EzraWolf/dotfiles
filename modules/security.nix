@@ -1,10 +1,12 @@
 # Optional: security / pen-testing tools (slim)
-{ pkgs, ... }:
-{
+{pkgs, ...}: {
   home.packages = with pkgs; [
     nmap
-    hashcat john hydra
-    ghidra metasploit
+    hashcat
+    john
+    hydra
+    ghidra
+    metasploit
     maltego
     spider
   ];
