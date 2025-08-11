@@ -1,8 +1,31 @@
+# Ignore common Nix build artifacts and editor files
+result*
+*.drv
+*.swp
+*.bak
+*.tmp
+.cache/
+.nix-gc*
+.nix-channels
+.nix-defexpr
+.nix-profile
+*.old
+
+# Ignore archives and fonts
 *.zip
 *.tar.gz
 *.rar
 *.7z
-*.env.*
-*.log.*
 *.ttf
 *.otf
+
+# Ignore logs and env files
+*.env.*
+*.log.*
+
+# Do NOT ignore flake.lock or config files
+!flake.lock
+!flake.nix
+!core/
+!modules/
+!hosts/
