@@ -1,0 +1,8 @@
+*.zip
+*.tar.gz
+*.rar
+*.7z
+*.env.*
+*.log.*
+*.ttf
+*.otf
