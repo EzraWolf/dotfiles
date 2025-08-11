@@ -3,8 +3,14 @@
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
-    home-manager.url = "github:nix-community/home-manager";
-    stylix.url = "github:danth/stylix";
+    home-manager = {
+      url = "github:nix-community/home-manager";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
+    stylix = {
+      url = "github:nix-community/stylix";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
   };
 
   outputs = inputs@{ self, nixpkgs, home-manager, stylix, ... }:
@@ -13,6 +19,7 @@
     pkgs = import nixpkgs { inherit system; config.allowUnfree = true; };
     vars = {
       username = "z80";
+      computer = "zx-spectrum";
       userhost = "desktop";
       userpath = "/home/z80/nixos-config";
       locale = "en_US.UTF-8";

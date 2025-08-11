@@ -4,14 +4,30 @@
   stylix = lib.mkIf vars.enableStylix {
     enable = true;
     fonts = {
-      monospace = "Noto Sans Mono";
-      sansSerif = "Noto Sans";
-      serif = "Noto Serif";
+      monospace = {
+        package = pkgs.noto-fonts;
+        name = "Noto Sans Mono";
+      };
+      sansSerif = {
+        package = pkgs.noto-fonts;
+        name = "Noto Sans";
+      };
+      serif = {
+        package = pkgs.noto-fonts;
+        name = "Noto Serif";
+      };
+      emoji = {
+        package = pkgs.nerd-fonts-symbols;
+        name = "Symbols Nerd Font Mono";
+      };
     };
+
     # E-ink inspired palette
     base16Scheme = {
       name = "E-Ink";
       author = "GitHub Copilot";
+      scheme = "eink";
+      slug = "eink";
       colors = {
         base00 = "#cccccc"; # light gray
         base01 = "#444444"; # dark gray
@@ -44,5 +60,9 @@
     lxqt.lxqt-globalkeys
     # file manager kept light
     pcmanfm-qt
+    noto-fonts
+    noto-fonts-emoji
+    noto-fonts-extra
+    nerd-fonts-symbols
   ];
 }
