@@ -7,7 +7,6 @@
   # Stylix theming (optional, can be disabled)
   stylix = {
     enable = true;
-    targets.firefox.profileNames = [vars.username];
     fonts = {
       monospace = {
         package = pkgs.noto-fonts;
