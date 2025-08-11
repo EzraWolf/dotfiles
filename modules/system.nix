@@ -1,26 +1,51 @@
 # Core system packages (essential, minimal but robust)
-{ pkgs, ... }:
 {
+  pkgs,
+  vars,
+  ...
+}: {
   environment.systemPackages = with pkgs; [
-    nano helix      # Essential editors
-    gcc make uv     # Essential build tools
+    nano
+    helix # Essential editors
+    gcc
+    cmake
+    uv # Essential build tools
     alejandra
-    gnupg openssl   # Essential security
-    git
-    zsh
-    curl wget
-    man-db tldr
-    pciutils        # For `lspci`
+    gnupg
+    openssl # Essential security
+    curl
+    wget
+    man-db
+    tldr
+    pciutils # For `lspci`
     p7zip
     zbar
-    file fd ncdu
-    apcalc bc fzf
+    file
+    fd
+    ncdu
+    bc
+    fzf
     xclip
     uutils-coreutils-noprefix
-    gparted veracrypt ventoy
+    gparted
+    veracrypt
+    ventoy # Ventoy is technically "unsafe" since it uses blobs.
     bleachbit
     flameshot
   ];
 
+  programs.git = {
+    enable = true;
+    config = {
+      user.name = vars.gituser;
+      user.email = vars.gitmail;
+    };
+  };
+
+  programs.zsh.enable = true;
   virtualisation.docker.enable = true;
+
+  nixpkgs.config.permittedInsecurePackages = [
+    "ventoy-1.1.05"
+  ];
 }
