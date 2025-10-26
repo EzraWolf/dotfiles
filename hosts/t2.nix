@@ -28,7 +28,7 @@
       buildCommand = ''
         dir="$out/lib/firmware"
         mkdir -p "$dir"
-        cp -r ${./firmware}/* "$dir"
+        cp -r ${./t2-firmware}/* "$dir"
       '';
     })
   ];
