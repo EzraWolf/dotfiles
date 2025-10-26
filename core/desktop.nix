@@ -49,25 +49,28 @@
     };
   };
 
-  services.xserver.desktopManager.lxqt.enable = true;
-  services.xserver.displayManager.sddm.enable = true;
-  xdg.portal.lxqt.enable = true;
+  # Graphical stack setup
+  # xdg.portal.lxqt.enable = true;
+  # services.xserver.displayManager.sddm.enable = true; # Qt-based DM
+  # services.xserver.desktopManager.lxqt.enable = true;
+  services.xserver.displayManager.gdm.enable = true;
+  services.xserver.desktopManager.gnome.enable = true;
 
   # LXQt adjunct utilities kept minimal
-  environment.systemPackages = with pkgs; [
-    lxqt.lxqt-qtplugin
-    lxqt.lxqt-config
-    lxqt.lxqt-panel
-    lxqt.lxqt-session
-    lxqt.lxqt-policykit
-    lxqt.lxqt-powermanagement
-    lxqt.lxqt-notificationd
-    lxqt.lxqt-globalkeys
+  #environment.systemPackages = with pkgs; [
+  #  lxqt.lxqt-qtplugin
+  #  lxqt.lxqt-config
+  #  lxqt.lxqt-panel
+  #  lxqt.lxqt-session
+  #  lxqt.lxqt-policykit
+  #  lxqt.lxqt-powermanagement
+  #  lxqt.lxqt-notificationd
+  #  lxqt.lxqt-globalkeys
     # file manager kept light
-    pcmanfm-qt
-    noto-fonts
-    noto-fonts-emoji
-    noto-fonts-extra
+  #  pcmanfm-qt
+  #  noto-fonts
+  #  noto-fonts-emoji
+  #  noto-fonts-extra
     # nerd-fonts-symbols
-  ];
+  #];
 }
