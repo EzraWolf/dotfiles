@@ -4,6 +4,8 @@ Attempted optimizing for simplicity, simple modularity, offline use, and separat
 
 All of `/modules/` is not system specific and should work regardless of whichever `/host/` is used.
 
+Rebuild with `sudo nixos-rebuild switch --flake ~/Documents/NixOS#t2`
+
 TODO:
 - Get this working
 - Optimize for privacy

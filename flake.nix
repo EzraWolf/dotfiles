@@ -1,5 +1,5 @@
 {
-  description = "Test NixOS config (modular, LXQt, Stylix-ready)";
+  description = "Test NixOS on a T2 late 2018 Mac Mini";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
@@ -26,12 +26,12 @@
       config.allowUnfree = true;
     };
     vars = {
-      username = "z80";
-      computer = "zx-spectrum";
-      userhost = "desktop";
-      userpath = "/home/z80/nixos-config";
+      username = "abacus";
+      computer = "server";
+      userhost = "t2";
+      userpath = "/Documents/NixOS";
 
-      version = "25.05";
+      version = "25.11";
 
       gituser = vars.username;
       gitmail = "${vars.username}@example.com";
@@ -44,7 +44,7 @@
       # Enable optional package modules (grouped by use case)
       # NOTE: system.nix and user.nix packages are always included
       enableDev = true;
-      enableGaming = true;
+      enableGaming = false;
       enableMedia = false;
       enableProductivity = false;
       enableSecurity = false;

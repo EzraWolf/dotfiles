@@ -5,10 +5,13 @@
   vars,
   ...
 }: {
-  # Graphical stack basics (X11 for LXQt)
+  # Graphical stack basics (Gnome for now)
   services.xserver.enable = true;
-  services.xserver.displayManager.sddm.enable = true; # Qt-based DM
-  services.xserver.desktopManager.lxqt.enable = true;
+  # services.xserver.displayManager.sddm.enable = true; # Qt-based DM
+  # services.xserver.desktopManager.lxqt.enable = true;
+  services.xserver.displayManager.gdm.enable = true;
+  services.xserver.desktopManager.gnome.enable = true;
+  
 
   # Sound
   # PipeWire as default modern audio stack

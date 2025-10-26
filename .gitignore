@@ -10,6 +10,7 @@ result*
 .nix-defexpr
 .nix-profile
 *.old
+*.backup
 
 # Ignore archives and fonts
 *.zip
