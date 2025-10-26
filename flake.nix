@@ -12,6 +12,9 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
     nixos-hardware.url = "github:NixOS/nixos-hardware";
+
+    # Minecraft
+    nix-minecraft.url = "github:Infinidoge/nix-minecraft";
   };
 
   outputs = inputs @ {
@@ -19,6 +22,7 @@
     nixpkgs,
     home-manager,
     stylix,
+    nix-minecraft,
     ...
   }: let
     system = "x86_64-linux";
