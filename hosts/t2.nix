@@ -15,7 +15,7 @@
       ../core/desktop.nix
 
       # TODO: Make own copy of this branch in case it ever goes missing.
-      "${builtins.fetchGit { url = "https://github.com/kekrby/nixos-hardware.git"; }}/apple/t2"
+      # "${builtins.fetchGit { url = "https://github.com/kekrby/nixos-hardware.git"; }}/apple/t2"
     ]
     ++ lib.optional (builtins.pathExists ./hardware-t2.nix) ./hardware-t2.nix;
 
