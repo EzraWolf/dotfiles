@@ -8,7 +8,6 @@
   # Graphical stack handled inside of `./desktop.nix`
   services.xserver.enable = true;
 
-
   # Sound
   # PipeWire as default modern audio stack
   security.rtkit.enable = true;

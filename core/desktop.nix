@@ -66,11 +66,11 @@
   #  lxqt.lxqt-powermanagement
   #  lxqt.lxqt-notificationd
   #  lxqt.lxqt-globalkeys
-    # file manager kept light
+  # file manager kept light
   #  pcmanfm-qt
   #  noto-fonts
   #  noto-fonts-emoji
   #  noto-fonts-extra
-    # nerd-fonts-symbols
+  # nerd-fonts-symbols
   #];
 }
