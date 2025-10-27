@@ -53,6 +53,7 @@
       enableMedia = false;
       enableProductivity = false;
       enableSecurity = false;
+      enableMinecraft = true;
     };
   in {
     nixosConfigurations.${vars.userhost} = nixpkgs.lib.nixosSystem {
