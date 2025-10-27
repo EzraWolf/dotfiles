@@ -72,8 +72,8 @@
         nix-minecraft.nixosModules.minecraft-servers
 
         # Apply MC overlay?
-        ({ pkgs, ... }: {
-          nixpkgs.overlays = [ nix-minecraft.overlay ];
+        ({pkgs, ...}: {
+          nixpkgs.overlays = [nix-minecraft.overlay];
         })
       ];
     };
