@@ -6,9 +6,12 @@
   lib,
   ...
 }: let
-  modpack = pkgs.fetchPackwizModpack {
-    url = "";
-    packHash = "";
+
+  inherit (inputs.nix-minecraft.lib) fetchPackwizModpack;
+
+  modpack = fetchPackwizModpack {
+    url = "https://github.com/EzraWolf/modpacks/blob/0b714574a7155e552af1ebc4015a5d4bfceb9ea9/pack.toml";
+    packHash = "sha256-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAa=";
   };
 
   mcVersion = modpack.manifest.versions.minecraft;
