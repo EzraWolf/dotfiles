@@ -5,6 +5,10 @@
   vars,
   ...
 }: {
+  imports =
+    []
+    ++ lib.optionals vars.enableMinecraft [../modules/minecraft.nix];
+
   # Graphical stack handled inside of `./desktop.nix`
   services.xserver.enable = true;
 

@@ -9,7 +9,6 @@
   imports = [
     ../modules/system.nix
   ];
-
   time.timeZone = vars.timezone;
   i18n.defaultLocale = vars.locale;
   i18n.extraLocaleSettings = {

@@ -37,6 +37,7 @@
     veracrypt
     ventoy # Ventoy is technically "unsafe" since it uses blobs.
     flameshot
+    tmux
   ];
 
   nixpkgs.config.permittedInsecurePackages = [
