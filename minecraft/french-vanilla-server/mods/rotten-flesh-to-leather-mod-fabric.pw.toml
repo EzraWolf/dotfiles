@@ -1,0 +1,13 @@
+name = "Rotten flesh to Leather (Fabric/Quilt)"
+filename = " rottenflesh-to-leather_1-20-x.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/aDbO5Ehv/versions/E3EMSqDg/%20rottenflesh-to-leather_1-20-x.jar"
+hash-format = "sha512"
+hash = "9b3354e9434b3fc1a849f1be80f6748d40ba5f783e7d19b6580e5af089f38bfbd18fe2537f4652bec28f9fe25f01853eaec4e6ad611a5f1a58f2b0081cc47828"
+
+[update]
+[update.modrinth]
+mod-id = "aDbO5Ehv"
+version = "E3EMSqDg"

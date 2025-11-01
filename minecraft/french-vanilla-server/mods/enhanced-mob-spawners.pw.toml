@@ -1,0 +1,13 @@
+name = "Enhanced Mob Spawners"
+filename = "spawnermod-1.20.1-1.2.4+Fabric.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ZF0coYok/versions/lY1pPgkT/spawnermod-1.20.1-1.2.4%2BFabric.jar"
+hash-format = "sha512"
+hash = "733a1d04ea84aa95a02a262acb1a9b3b53b7923339ccb53f8ab6c81e60333488d3a087a08561ee7dd9f2cb42342dbb701549e01194236660afd657ff8481799a"
+
+[update]
+[update.modrinth]
+mod-id = "ZF0coYok"
+version = "lY1pPgkT"

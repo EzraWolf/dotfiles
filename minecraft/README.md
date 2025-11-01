@@ -1,0 +1,1 @@
+Put your local modpacks in here but do not include them in git.

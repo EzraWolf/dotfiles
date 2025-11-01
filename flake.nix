@@ -71,8 +71,8 @@
         stylix.nixosModules.stylix
 
         nix-minecraft.nixosModules.minecraft-servers
-        ({ pkgs, ...}: {
-          nixpkgs.overlays = [ nix-minecraft.overlay ];
+        ({pkgs, ...}: {
+          nixpkgs.overlays = [nix-minecraft.overlay];
         })
       ];
     };

@@ -4,17 +4,10 @@
   pkgs,
   inputs,
   lib,
+  vars,
   ...
 }: let
-
-  modpack = pkgs.fetchPackwizModpack {
-    url = "https://raw.githubusercontent.com/EzraWolf/modpacks/main/FrenchVanilla/pack.toml";
-    packHash = "sha256-c7VeN7EiLlRHaQqfUZKMSiwr2hM+uMOCsJ83PHum9lc=";
-  };
-
-  mcVersion = modpack.manifest.versions.minecraft;
-  fabricVersion = modpack.manifest.versions.fabric;
-  serverVersion = lib.replaceStrings ["."] ["_"] "fabric-${mcVersion}";
+  modpackPath = ../minecraft;
 in {
   imports = [inputs.nix-minecraft.nixosModules.minecraft-servers];
   nixpkgs.overlays = [inputs.nix-minecraft.overlay];
@@ -28,8 +21,8 @@ in {
       french-vanilla = {
         enable = true;
         autoStart = true;
-        package = pkgs.fabricServers.${serverVersion}.override {loaderVersion = fabricVersion;};
-q
+        package = pkgs.fabricServers.fabric-1_20_1;
+
         serverProperties = {
           server-port = 25565;
           white-list = true;
@@ -48,23 +41,25 @@ q
           #  CHIEF__BEER
           #  josephus
           #  nxndr
+          #  ServinVirgin (?)
         };
 
         operators = {
           schpinkledorf = {
             uuid = "bbc70679-5257-483b-83d0-0bf1ebac4b4d";
-            level = 4; # Owner
+            level = 4; # Owner level
             bypassesPlayerLimit = true;
           };
         };
 
-        # Fetch hosted modpack
+        # Fetch local modpack
         symlinks = {
-          "mods" = "${modpack}/mods";
+          "mods" = "${modpackPath}/french-vanilla/mods";
         };
 
         files = {
-          "config" = "${modpack}/config";
+          "config" = "${modpackPath}/french-vanilla/config";
+          #"options.txt" = "${modpack}/options.txt";
         };
 
         jvmOpts = "-Xms4G -Xmx6G -XX:+UseG1GC";

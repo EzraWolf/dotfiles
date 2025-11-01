@@ -1,0 +1,13 @@
+name = "Horse Buff"
+filename = "HorseBuff-1.20.1-2.1.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/IrrG0G8l/versions/AcvApl9c/HorseBuff-1.20.1-2.1.3.jar"
+hash-format = "sha512"
+hash = "9ee0bd50915d5c5ecfba530c2226077fa3a83131e54a475294ca9d88bfb3bb3c40736ed03b9367a47ef62428cdc1daf8ce2a63498e37fe0811a724f0b89499b0"
+
+[update]
+[update.modrinth]
+mod-id = "IrrG0G8l"
+version = "AcvApl9c"

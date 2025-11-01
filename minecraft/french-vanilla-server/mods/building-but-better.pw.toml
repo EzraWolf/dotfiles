@@ -1,0 +1,13 @@
+name = "Building But Better"
+filename = "bbb-fabric-2.0pre3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/OSDpLd82/versions/2bZYkC7m/bbb-fabric-2.0pre3.jar"
+hash-format = "sha512"
+hash = "b63ac11332686e88d9e46391e03cbbeef036acf25412b845ad3eb1852a83e7a1b3fc36c024f74a8606b314d972a938b3b512c44a1dfa64840d27839a8ac376f1"
+
+[update]
+[update.modrinth]
+mod-id = "OSDpLd82"
+version = "2bZYkC7m"

@@ -1,0 +1,13 @@
+name = "Immersive Snow"
+filename = "immersivesnow-1.20.1-1.3.2.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/mQdEVqSA/versions/zTOAZx1A/immersivesnow-1.20.1-1.3.2.jar"
+hash-format = "sha512"
+hash = "a270ae37e1adfcc70e24c5b90baf571fbe653fa49ad0c6c6630015fb9eb75a2481e6f9175565199618e60a7eb9e45003051010b54301dbe365af25be6698af5d"
+
+[update]
+[update.modrinth]
+mod-id = "mQdEVqSA"
+version = "zTOAZx1A"
