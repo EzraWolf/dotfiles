@@ -549,14 +549,6 @@ file = "config/zombieawareness/Features.toml"
 hash = "43d17cd9f3ff3a445476eea73b5bffd3bb496b9fdd8466afb6028dc3524ce924"
 
 [[files]]
-file = "config/zombieawareness/General-1.toml.bak"
-hash = "73b5387e95d53ca1f5151d26d7a19954d110dbfaefdfbc6e87bd5c81560baece"
-
-[[files]]
-file = "config/zombieawareness/General-2.toml.bak"
-hash = "8233ebad84b90974d6ae97e3165717a12271f9143d22de4c41280734e469b365"
-
-[[files]]
 file = "config/zombieawareness/General.toml"
 hash = "4945eedb0275ec025536021d56a5294ce736ef0d9b00788e13d8315c4c6d939f"
 

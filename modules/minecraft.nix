@@ -9,7 +9,7 @@
 }: let
   modpack = pkgs.fetchPackwizModpack {
     url = "https://raw.githubusercontent.com/EzraWolf/dotfiles/refs/heads/T2/minecraft/test/pack.toml";
-    packHash = "sha256-Hb9fPwORyfmM+8jd5a2i1czVPyYMsvu9i0y4d/XqmDQ=";
+    packHash = "sha256-Hb9FPwORyfmM+8jd5b2i1czVPyYMsvu9i0y4d/XqmDQ=";
   };
 in {
   imports = [inputs.nix-minecraft.nixosModules.minecraft-servers];
@@ -62,7 +62,7 @@ in {
 
         files = {
           "config" = "${modpack}/config";
-          "options.txt" = "${modpack}/options.txt";
+          # "options.txt" = "${modpack}/options.txt";
         };
 
         jvmOpts = "-Xms4G -Xmx4G -XX:+UseG1GC";
