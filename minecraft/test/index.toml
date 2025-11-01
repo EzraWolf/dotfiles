@@ -6,6 +6,11 @@ hash = "006b24892ead1f3b1319727bcd41c32db322e3eb61956825387c3788bfd9e168"
 metafile = true
 
 [[files]]
+file = "mods/balm.pw.toml"
+hash = "71dc04da11ad8f4a5d88db5505132a654ce033f05dc2fa4bb7aa28a42762086f"
+metafile = true
+
+[[files]]
 file = "mods/better-compatibility-checker.pw.toml"
 hash = "f060633ec58d2c5498c963d00de015e3946ee8a1bc1043f7bc4782ddcf44051f"
 metafile = true
@@ -48,4 +53,49 @@ metafile = true
 [[files]]
 file = "mods/lithium.pw.toml"
 hash = "a08a445002542d96a8481654c3f4b5e2d3c064f77b477aeaa3a1d1c3cd396ca8"
+metafile = true
+
+[[files]]
+file = "mods/max-health-fix.pw.toml"
+hash = "b86378c832836f63bfe348605a2f30be6aefb6f4813361cba08e07b1c2efabed"
+metafile = true
+
+[[files]]
+file = "mods/memoryleakfix.pw.toml"
+hash = "ede2f61d6b592f44294fa8790c2f050729c487aa86aba09034f2ef30d45e0e93"
+metafile = true
+
+[[files]]
+file = "mods/netherportalfix.pw.toml"
+hash = "ba5ff18e27aa4a5ef3cc763c0f17178c57a916b183035678715ff0fa3f6fee6b"
+metafile = true
+
+[[files]]
+file = "mods/no-chat-reports.pw.toml"
+hash = "9ce6efc7149cdae2deb751b4ebf2d220700cc1b204e7a1d026275203387f106b"
+metafile = true
+
+[[files]]
+file = "mods/noisium.pw.toml"
+hash = "e94cfc8b72a467d63c5d7593a433edaf698a3792e0c9b95274751ba6d8435288"
+metafile = true
+
+[[files]]
+file = "mods/packet-fixer.pw.toml"
+hash = "3ab8970e80d25686ebe4bf0747a96d116ab961ce6974aa815cc9fcbce5553b62"
+metafile = true
+
+[[files]]
+file = "mods/polymorph.pw.toml"
+hash = "8293786ca23e23e7dd04d60d666f34145a00229a5959f7a1962995654cacdf1f"
+metafile = true
+
+[[files]]
+file = "mods/starlight.pw.toml"
+hash = "98553c2d49ef3a888954f24b7c49fe3442c01fd4fc1f1ed52c5898ed29d29d3b"
+metafile = true
+
+[[files]]
+file = "mods/vmp-fabric.pw.toml"
+hash = "74906aa6f2f33b0391252d50b1d446d2ad2df4d6ca1026b941e90cc579a0692b"
 metafile = true
