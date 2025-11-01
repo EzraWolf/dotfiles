@@ -7,7 +7,11 @@
   vars,
   ...
 }: let
-  modpackPath = ../minecraft;
+    modpack = pkgs.fetchPackwizModpack {
+    url = "https://raw.githubusercontent.com/EzraWolf/dotfiles/main/french-vanilla-server/pack.toml";
+    packHash = "sha256-c7VeN7EiLlRHaQqfUZKMSiwr2hM+uMOCsJ83PHum9lc=";
+  };
+
 in {
   imports = [inputs.nix-minecraft.nixosModules.minecraft-servers];
   nixpkgs.overlays = [inputs.nix-minecraft.overlay];
@@ -54,11 +58,11 @@ in {
 
         # Fetch local modpack
         symlinks = {
-          "mods" = "${modpackPath}/french-vanilla/mods";
+          "mods" = "${modpack}/mods";
         };
 
         files = {
-          "config" = "${modpackPath}/french-vanilla/config";
+          "config" = "${modpack}/config";
           #"options.txt" = "${modpack}/options.txt";
         };
 
