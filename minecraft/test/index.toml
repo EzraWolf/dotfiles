@@ -17,7 +17,7 @@ metafile = true
 
 [[files]]
 file = "mods/c2me-fabric.pw.toml"
-hash = "066bcf27ce64eeaeb8e595f3768743c02e3a5fa2f7338357a523b8a72f0814df"
+hash = "64a244469b7ce7be7e6ceabedd69d17e573a0b92d6e29c661fc6c490afa965d8"
 metafile = true
 
 [[files]]
@@ -38,11 +38,6 @@ metafile = true
 [[files]]
 file = "mods/faster-random.pw.toml"
 hash = "605fe60f2ada4333e88ec2fa66cb57d0635292d83eee8d1ad40f2485d72ef013"
-metafile = true
-
-[[files]]
-file = "mods/ferrite-core.pw.toml"
-hash = "86cbfa8adbbb8be527f95aca49b427f892aa780773df141dfd7f4ffd02740bbd"
 metafile = true
 
 [[files]]
