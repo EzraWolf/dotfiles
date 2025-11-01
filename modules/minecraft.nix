@@ -8,8 +8,8 @@
   ...
 }: let
     modpack = pkgs.fetchPackwizModpack {
-    url = "https://raw.githubusercontent.com/EzraWolf/dotfiles/main/french-vanilla-server/pack.toml";
-    packHash = "sha256-c7VeN7EiLlRHaQqfUZKMSiwr2hM+uMOCsJ83PHum9lc=";
+    url = "https://raw.githubusercontent.com/EzraWolf/dotfiles/refs/heads/T2/minecraft/french-vanilla-server/pack.toml";
+    packHash = "sha256-HQRt/fgdCHsArGiZ3sgMJpu9qeZg/Tw825Q8DnEObqI=";
   };
 
 in {

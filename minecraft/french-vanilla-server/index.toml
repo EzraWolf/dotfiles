@@ -889,7 +889,7 @@ metafile = true
 
 [[files]]
 file = "mods/building-but-better.pw.toml"
-hash = "e75530a3514cb2b772047b61711b789a09596ac417147d7431cf2a803099f9e8"
+hash = "6b6b02c89488f1bc75c0c4d18f97eb749019b26b8ed4b18796753ebcb227b304"
 metafile = true
 
 [[files]]
@@ -980,11 +980,6 @@ metafile = true
 [[files]]
 file = "mods/faster-random.pw.toml"
 hash = "605fe60f2ada4333e88ec2fa66cb57d0635292d83eee8d1ad40f2485d72ef013"
-metafile = true
-
-[[files]]
-file = "mods/fastload.pw.toml"
-hash = "fd28ed613c3f019627d305097f18c6be85b76fc96d2d719cd8d9f5b9420ca9eb"
 metafile = true
 
 [[files]]
@@ -1214,7 +1209,7 @@ metafile = true
 
 [[files]]
 file = "mods/vanilla-refresh.pw.toml"
-hash = "f6058827d13219b89e1f2a15ce02ebf5bc86482e4b6971520627c32232545577"
+hash = "43f088fb74ecc0109b597abd3d5d22eadae6d74a4a3f741b98db3b8e852f6f30"
 metafile = true
 
 [[files]]
@@ -1231,3 +1226,7 @@ metafile = true
 file = "mods/zombie-awareness.pw.toml"
 hash = "d7651d3c0b4223a2df4af7d72636e7bf80c558dc351065c7431db4147c215ab4"
 metafile = true
+
+[[files]]
+file = "options.txt"
+hash = "f1a95770980ccb5ee963416c41826016ab4cfe7f0dcda89d40e82b270407e534"

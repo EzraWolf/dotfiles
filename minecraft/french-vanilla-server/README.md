@@ -16,7 +16,7 @@ packwiz modrinth add https://modrinth.com/mod/alternate-current/version/mc1.20-1
 packwiz modrinth add https://modrinth.com/mod/badoptimizations/version/2.3.1
 packwiz modrinth add https://modrinth.com/mod/horsebuff/version/AcvApl9c
 packwiz modrinth add https://modrinth.com/mod/basicweapons/version/1.2.5+1.20.1
-packwiz modrinth add https://modrinth.com/mod/building-but-better/version/2.0pre3
+packwiz modrinth add https://modrinth.com/mod/building-but-better/version/1.0.2-fabric-1.20.1
 packwiz modrinth add https://modrinth.com/mod/bundle-recipe/version/1.20.4-v1.1.0
 packwiz modrinth add https://modrinth.com/mod/c2me-fabric/version/0.2.0+alpha.11.16+1.20.1
 packwiz modrinth add https://modrinth.com/plugin/chunky/version/NHWYq9at
@@ -60,9 +60,8 @@ packwiz modrinth add https://modrinth.com/mod/sparsestructures/version/XcUzPH3Z
 packwiz modrinth add https://modrinth.com/mod/polymorph/version/0.49.10+1.20.1
 packwiz modrinth add https://modrinth.com/mod/starlight/version/1.1.2+1.20
 packwiz modrinth add https://modrinth.com/datapack/terralith/version/2.5.4
-packwiz modrinth add https://modrinth.com/mod/fastload/version/3.4.0
 packwiz modrinth add https://modrinth.com/datapack/tectonic/version/3.0.16
-packwiz modrinth add https://modrinth.com/datapack/vanilla-refresh/version/1.4.19h+mod
+packwiz modrinth add https://modrinth.com/datapack/vanilla-refresh/version/1.4.19g+mod
 packwiz modrinth add https://modrinth.com/mod/spyglass-improvements/version/1.5.11+mc1.20.1+fabric
 packwiz modrinth add https://modrinth.com/mod/survivality/version/1.3.1
 packwiz modrinth add https://modrinth.com/mod/tree-harvester/version/EQYmDYvI
@@ -72,7 +71,7 @@ packwiz modrinth add https://modrinth.com/mod/universal-enchants/version/v8.0.0-
 packwiz modrinth add https://modrinth.com/mod/zombie-awareness/version/nkFcvMt7
 packwiz modrinth add https://modrinth.com/mod/improved-mobs/version/1.20.1-1.13.6-fabric
 packwiz modrinth add https://modrinth.com/mod/vmp-fabric/version/0.2.0+beta.7.102+1.20.1
-
+packwiz modrinth add https://modrinth.com/mod/tooltipfix/version/1.1.1-1.20
 
 
 
