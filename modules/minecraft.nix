@@ -9,7 +9,7 @@
 }: let
   modpack = pkgs.fetchPackwizModpack {
     url = "https://raw.githubusercontent.com/EzraWolf/dotfiles/refs/heads/T2/minecraft/french-vanilla-server/pack.toml";
-    packHash = "sha256-HeWOX78sW4aLXxsilFeraC47yXnTOkiei53d5wcGQ0M=";
+    packHash = "sha256-YAHFi4IXWjCoiksuFQHfc5RYET3WFk5ARrEUbYc5S20=";
   };
 in {
   imports = [inputs.nix-minecraft.nixosModules.minecraft-servers];
@@ -65,7 +65,7 @@ in {
           #"options.txt" = "${modpack}/options.txt";
         };
 
-        jvmOpts = "-Xms6G -Xmx6G -XX:+UseG1GC";
+        jvmOpts = "-Xms4G -Xmx4G -XX:+UseG1GC";
       };
 
       vanilla = {
