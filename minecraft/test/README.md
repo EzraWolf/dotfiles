@@ -27,11 +27,11 @@ packwiz modrinth add https://modrinth.com/mod/modernfix/version/5.24.4+mc1.20.1
 
 Fabric Additionals:
 
-packwiz modrinth add 
-packwiz modrinth add 
-packwiz modrinth add 
-packwiz modrinth add 
-packwiz modrinth add 
+packwiz modrinth add https://modrinth.com/datapack/recipes-plus/version/1.2.4+mod
+packwiz modrinth add https://modrinth.com/mod/rotten-flesh-to-leather-mod-fabric/version/E3EMSqDg
+packwiz modrinth add https://modrinth.com/mod/snow-real-magic/version/QVh65fYg
+packwiz modrinth add https://modrinth.com/mod/snow-under-trees-remastered/version/2.5.4+1.20.1
+packwiz modrinth add https://modrinth.com/mod/survivality/version/1.3.1
 packwiz modrinth add 
 packwiz modrinth add 
 packwiz modrinth add 

@@ -46,6 +46,11 @@ hash = "86cbfa8adbbb8be527f95aca49b427f892aa780773df141dfd7f4ffd02740bbd"
 metafile = true
 
 [[files]]
+file = "mods/kiwi.pw.toml"
+hash = "5f2ea40fc2cf14692f1200284104a123e8789adbd868cd29b2ef8ff40b1527f3"
+metafile = true
+
+[[files]]
 file = "mods/krypton.pw.toml"
 hash = "9063bac3fdf585a43d318e3f9773475a28ecb8fe80bc7689cc480851eef97420"
 metafile = true
@@ -68,6 +73,11 @@ metafile = true
 [[files]]
 file = "mods/modernfix.pw.toml"
 hash = "25eaf217efd36d674b35fe2577c41736bcceb2961224ce9dd3e67be0bd483d1d"
+metafile = true
+
+[[files]]
+file = "mods/mru.pw.toml"
+hash = "10430695ad67fd14a9e208c0ebe6efaf073cc78e3292f52159b2d04b75b87214"
 metafile = true
 
 [[files]]
@@ -96,8 +106,33 @@ hash = "8293786ca23e23e7dd04d60d666f34145a00229a5959f7a1962995654cacdf1f"
 metafile = true
 
 [[files]]
+file = "mods/recipes-plus.pw.toml"
+hash = "27de845bb5e3e486fabf6a287594234e64f7226c38bcf56cff0038ef01713160"
+metafile = true
+
+[[files]]
+file = "mods/rotten-flesh-to-leather-mod-fabric.pw.toml"
+hash = "789fc1f6e5503999e5188fdb0e15bf3aad6acd1f2788bed9331bbc4978270703"
+metafile = true
+
+[[files]]
+file = "mods/snow-real-magic.pw.toml"
+hash = "2e896ef579b5b09bb9e4a2a646795fd2c51c6b390142c9a62e5e3af4f40aa33a"
+metafile = true
+
+[[files]]
+file = "mods/snow-under-trees-remastered.pw.toml"
+hash = "c88fc616045499e1e793fbb68a7906e1f4b744452bbd5eff8601b35f6fd7d069"
+metafile = true
+
+[[files]]
 file = "mods/starlight.pw.toml"
 hash = "98553c2d49ef3a888954f24b7c49fe3442c01fd4fc1f1ed52c5898ed29d29d3b"
+metafile = true
+
+[[files]]
+file = "mods/survivality.pw.toml"
+hash = "86bd54943c3ec34718c42dd870972c0caeb1fbc6c0a163f3e0948441e6130959"
 metafile = true
 
 [[files]]
