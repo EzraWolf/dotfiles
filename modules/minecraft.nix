@@ -9,7 +9,7 @@
 }: let
   modpack = pkgs.fetchPackwizModpack {
     url = "https://raw.githubusercontent.com/EzraWolf/dotfiles/refs/heads/T2/minecraft/french-vanilla-server/pack.toml";
-    packHash = "sha256-HeWOX78sW4aLXxsiiFeraC47yXnTOkiei53d5wcGQ0M=";
+    packHash = "sha256-HeWOX78sW4aLXxsilFeraC47yXnTOkiei53d5wcGQ0M=";
   };
 in {
   imports = [inputs.nix-minecraft.nixosModules.minecraft-servers];

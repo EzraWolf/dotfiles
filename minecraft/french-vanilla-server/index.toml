@@ -993,6 +993,11 @@ hash = "4449401b59481016fa2a66d6e749795129160cb1ab3e7932e15033c6b5815455"
 metafile = true
 
 [[files]]
+file = "mods/guard-villagers-(fabricquilt).pw.toml"
+hash = "62cb0a28a1039bd90f1d3534ed52ada9b38a76fd27f98eb44a0ff31493652563"
+metafile = true
+
+[[files]]
 file = "mods/horsebuff.pw.toml"
 hash = "b4bc69d1a91b685b99efbd75389e12a19999117c5c5a751996085b0be8546b5c"
 metafile = true
