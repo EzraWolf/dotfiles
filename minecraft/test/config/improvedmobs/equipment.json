@@ -1,0 +1,520 @@
+{
+  "__comment": [
+    "Mobs will be able to equip items declared here",
+    "The first number is the weight while the second number is the quality",
+    "Weight is the weight of an item. Higher weight means that the item is more likely to get choosen",
+    "Quality is a modifier applied to the weight. The final weight used is weight + quality * current difficulty"
+  ],
+  "MAINHAND": {
+    "basicweapons:diamond_club": [
+      890,
+      5.022479
+    ],
+    "basicweapons:diamond_dagger": [
+      998,
+      4.790248
+    ],
+    "basicweapons:diamond_glaive": [
+      890,
+      5.022479
+    ],
+    "basicweapons:diamond_hammer": [
+      853,
+      5.1015
+    ],
+    "basicweapons:diamond_quarterstaff": [
+      998,
+      4.790248
+    ],
+    "basicweapons:diamond_spear": [
+      977,
+      4.8356147
+    ],
+    "basicweapons:golden_club": [
+      3576,
+      0.011899999
+    ],
+    "basicweapons:golden_dagger": [
+      3641,
+      0.0053999997
+    ],
+    "basicweapons:golden_glaive": [
+      3576,
+      0.011899999
+    ],
+    "basicweapons:golden_hammer": [
+      3597,
+      0.009799999
+    ],
+    "basicweapons:golden_quarterstaff": [
+      3636,
+      0.0058999998
+    ],
+    "basicweapons:golden_spear": [
+      3627,
+      0.0068
+    ],
+    "basicweapons:iron_club": [
+      3151,
+      0.45638117
+    ],
+    "basicweapons:iron_dagger": [
+      3243,
+      0.045199998
+    ],
+    "basicweapons:iron_glaive": [
+      3151,
+      0.45638117
+    ],
+    "basicweapons:iron_hammer": [
+      3081,
+      0.57356006
+    ],
+    "basicweapons:iron_quarterstaff": [
+      3243,
+      0.045199998
+    ],
+    "basicweapons:iron_spear": [
+      3226,
+      0.0469
+    ],
+    "basicweapons:netherite_club": [
+      54,
+      6.778693
+    ],
+    "basicweapons:netherite_dagger": [
+      178,
+      6.5202
+    ],
+    "basicweapons:netherite_glaive": [
+      54,
+      6.778693
+    ],
+    "basicweapons:netherite_hammer": [
+      13,
+      6.8641124
+    ],
+    "basicweapons:netherite_quarterstaff": [
+      178,
+      6.5202
+    ],
+    "basicweapons:netherite_spear": [
+      153,
+      6.5723376
+    ],
+    "basicweapons:stone_club": [
+      3383,
+      0.031199997
+    ],
+    "basicweapons:stone_dagger": [
+      3459,
+      0.023599999
+    ],
+    "basicweapons:stone_glaive": [
+      3383,
+      0.031199997
+    ],
+    "basicweapons:stone_hammer": [
+      3408,
+      0.028699998
+    ],
+    "basicweapons:stone_quarterstaff": [
+      3459,
+      0.023599999
+    ],
+    "basicweapons:stone_spear": [
+      3446,
+      0.024899999
+    ],
+    "basicweapons:wooden_club": [
+      3530,
+      0.0165
+    ],
+    "basicweapons:wooden_dagger": [
+      3590,
+      0.010499999
+    ],
+    "basicweapons:wooden_glaive": [
+      3530,
+      0.0165
+    ],
+    "basicweapons:wooden_hammer": [
+      3590,
+      0.010499999
+    ],
+    "basicweapons:wooden_quarterstaff": [
+      3590,
+      0.010499999
+    ],
+    "basicweapons:wooden_spear": [
+      3581,
+      0.011399999
+    ],
+    "minecraft:bow": [
+      1127,
+      4.508568
+    ],
+    "minecraft:crossbow": [
+      1421,
+      3.826627
+    ],
+    "minecraft:diamond_axe": [
+      890,
+      5.022479
+    ],
+    "minecraft:diamond_sword": [
+      952,
+      4.889481
+    ],
+    "minecraft:enchanted_book": [
+      2095,
+      1.8573177
+    ],
+    "minecraft:golden_axe": [
+      3551,
+      0.014399999
+    ],
+    "minecraft:golden_sword": [
+      3614,
+      0.0081
+    ],
+    "minecraft:iron_axe": [
+      3118,
+      0.51635593
+    ],
+    "minecraft:iron_sword": [
+      3205,
+      0.049
+    ],
+    "minecraft:lingering_potion{Potion:\"minecraft:harming\"}": [
+      2195,
+      1.7269388
+    ],
+    "minecraft:netherite_axe": [
+      54,
+      6.778693
+    ],
+    "minecraft:netherite_sword": [
+      124,
+      6.632802
+    ],
+    "minecraft:snowball": [
+      3145,
+      0.46844563
+    ],
+    "minecraft:splash_potion{Potion:\"minecraft:harming\"}": [
+      2195,
+      1.7269388
+    ],
+    "minecraft:stone_axe": [
+      3321,
+      0.0374
+    ],
+    "minecraft:stone_sword": [
+      3429,
+      0.026599998
+    ],
+    "minecraft:tnt": [
+      1995,
+      1.9881918
+    ],
+    "minecraft:trident": [
+      1195,
+      4.357304
+    ],
+    "minecraft:wooden_axe": [
+      3505,
+      0.019
+    ],
+    "minecraft:wooden_sword": [
+      3568,
+      0.0127
+    ]
+  },
+  "OFFHAND": {
+    "minecraft:ender_pearl": [
+      675,
+      1.2102311
+    ],
+    "minecraft:flint_and_steel": [
+      647,
+      1.2461817
+    ],
+    "minecraft:lava_bucket": [
+      275,
+      1.7269388
+    ],
+    "minecraft:shield": [
+      353,
+      1.6255897
+    ]
+  },
+  "FEET": {
+    "immersive_armors:bone_boots": [
+      1606,
+      0.0327
+    ],
+    "immersive_armors:divine_boots": [
+      361,
+      1.8207614
+    ],
+    "immersive_armors:heavy_boots": [
+      61,
+      2.2144253
+    ],
+    "immersive_armors:prismarine_boots": [
+      167,
+      2.074836
+    ],
+    "immersive_armors:robe_boots": [
+      1329,
+      0.5586735
+    ],
+    "immersive_armors:slime_boots": [
+      838,
+      1.2038136
+    ],
+    "immersive_armors:steampunk_boots": [
+      1059,
+      0.9202718
+    ],
+    "immersive_armors:warrior_boots": [
+      903,
+      1.1204389
+    ],
+    "immersive_armors:wither_boots": [
+      1365,
+      0.5012417
+    ],
+    "immersive_armors:wooden_boots": [
+      1661,
+      0.0272
+    ],
+    "minecraft:chainmail_boots": [
+      1341,
+      0.540316
+    ],
+    "minecraft:diamond_boots": [
+      425,
+      1.7373508
+    ],
+    "minecraft:golden_boots": [
+      1407,
+      0.4136078
+    ],
+    "minecraft:iron_boots": [
+      1093,
+      0.8764657
+    ],
+    "minecraft:leather_boots": [
+      1689,
+      0.0244
+    ],
+    "minecraft:netherite_boots": [
+      298,
+      1.9030677
+    ]
+  },
+  "LEGS": {
+    "immersive_armors:bone_leggings": [
+      1606,
+      0.0327
+    ],
+    "immersive_armors:divine_leggings": [
+      361,
+      1.8207614
+    ],
+    "immersive_armors:heavy_leggings": [
+      61,
+      2.2144253
+    ],
+    "immersive_armors:prismarine_leggings": [
+      167,
+      2.074836
+    ],
+    "immersive_armors:robe_leggings": [
+      1329,
+      0.5586735
+    ],
+    "immersive_armors:slime_leggings": [
+      838,
+      1.2038136
+    ],
+    "immersive_armors:steampunk_leggings": [
+      1059,
+      0.9202718
+    ],
+    "immersive_armors:warrior_leggings": [
+      903,
+      1.1204389
+    ],
+    "immersive_armors:wither_leggings": [
+      1365,
+      0.5012417
+    ],
+    "immersive_armors:wooden_leggings": [
+      1661,
+      0.0272
+    ],
+    "minecraft:chainmail_leggings": [
+      1341,
+      0.540316
+    ],
+    "minecraft:diamond_leggings": [
+      425,
+      1.7373508
+    ],
+    "minecraft:golden_leggings": [
+      1407,
+      0.4136078
+    ],
+    "minecraft:iron_leggings": [
+      1093,
+      0.8764657
+    ],
+    "minecraft:leather_leggings": [
+      1689,
+      0.0244
+    ],
+    "minecraft:netherite_leggings": [
+      298,
+      1.9030677
+    ]
+  },
+  "CHEST": {
+    "immersive_armors:bone_chestplate": [
+      1606,
+      0.0327
+    ],
+    "immersive_armors:divine_chestplate": [
+      361,
+      1.8207614
+    ],
+    "immersive_armors:heavy_chestplate": [
+      61,
+      2.2144253
+    ],
+    "immersive_armors:prismarine_chestplate": [
+      167,
+      2.074836
+    ],
+    "immersive_armors:robe_chestplate": [
+      1329,
+      0.5586735
+    ],
+    "immersive_armors:slime_chestplate": [
+      838,
+      1.2038136
+    ],
+    "immersive_armors:steampunk_chestplate": [
+      1059,
+      0.9202718
+    ],
+    "immersive_armors:warrior_chestplate": [
+      903,
+      1.1204389
+    ],
+    "immersive_armors:wither_chestplate": [
+      1365,
+      0.5012417
+    ],
+    "immersive_armors:wooden_chestplate": [
+      1661,
+      0.0272
+    ],
+    "minecraft:chainmail_chestplate": [
+      1341,
+      0.540316
+    ],
+    "minecraft:diamond_chestplate": [
+      425,
+      1.7373508
+    ],
+    "minecraft:golden_chestplate": [
+      1407,
+      0.4136078
+    ],
+    "minecraft:iron_chestplate": [
+      1093,
+      0.8764657
+    ],
+    "minecraft:leather_chestplate": [
+      1689,
+      0.0244
+    ],
+    "minecraft:netherite_chestplate": [
+      298,
+      1.9030677
+    ]
+  },
+  "HEAD": {
+    "immersive_armors:bone_helmet": [
+      1606,
+      0.0327
+    ],
+    "immersive_armors:divine_helmet": [
+      361,
+      1.8207614
+    ],
+    "immersive_armors:heavy_helmet": [
+      61,
+      2.2144253
+    ],
+    "immersive_armors:prismarine_helmet": [
+      167,
+      2.074836
+    ],
+    "immersive_armors:robe_helmet": [
+      1329,
+      0.5586735
+    ],
+    "immersive_armors:slime_helmet": [
+      838,
+      1.2038136
+    ],
+    "immersive_armors:steampunk_helmet": [
+      1059,
+      0.9202718
+    ],
+    "immersive_armors:warrior_helmet": [
+      903,
+      1.1204389
+    ],
+    "immersive_armors:wither_helmet": [
+      1365,
+      0.5012417
+    ],
+    "immersive_armors:wooden_helmet": [
+      1661,
+      0.0272
+    ],
+    "minecraft:chainmail_helmet": [
+      1341,
+      0.540316
+    ],
+    "minecraft:diamond_helmet": [
+      425,
+      1.7373508
+    ],
+    "minecraft:golden_helmet": [
+      1407,
+      0.4136078
+    ],
+    "minecraft:iron_helmet": [
+      1093,
+      0.8764657
+    ],
+    "minecraft:leather_helmet": [
+      1689,
+      0.0244
+    ],
+    "minecraft:netherite_helmet": [
+      298,
+      1.9030677
+    ],
+    "minecraft:turtle_helmet": [
+      1037,
+      0.948558
+    ]
+  }
+}
