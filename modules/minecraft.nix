@@ -7,11 +7,10 @@
   vars,
   ...
 }: let
-    modpack = pkgs.fetchPackwizModpack {
+  modpack = pkgs.fetchPackwizModpack {
     url = "https://raw.githubusercontent.com/EzraWolf/dotfiles/refs/heads/T2/minecraft/french-vanilla-server/pack.toml";
-    packHash = "sha256-N+L0O3d132jGMnVnyOdUkCooFyVevpOcCdbNFO16Myw=";
+    packHash = "sha256-HeWOX78sW4aLXxsiiFeraC47yXnTOkiei53d5wcGQ0M=";
   };
-
 in {
   imports = [inputs.nix-minecraft.nixosModules.minecraft-servers];
   nixpkgs.overlays = [inputs.nix-minecraft.overlay];
@@ -36,8 +35,8 @@ in {
           gamemode = "survival";
           difficulty = "normal";
 
-          view-distance = 32;
-          simulation-distance = 32;
+          view-distance = 10;
+          simulation-distance = 10;
         };
 
         whitelist = {
@@ -66,13 +65,21 @@ in {
           #"options.txt" = "${modpack}/options.txt";
         };
 
-        jvmOpts = "-Xms4G -Xmx6G -XX:+UseG1GC";
+        jvmOpts = "-Xms6G -Xmx6G -XX:+UseG1GC";
       };
 
-      open-vanilla = {
+      vanilla = {
         enable = true;
         autoStart = true;
         package = pkgs.vanillaServers.vanilla-1_20_1;
+
+        whitelist = {
+          schpinkledorf = "bbc70679-5257-483b-83d0-0bf1ebac4b4d";
+          #  CHIEF__BEER
+          #  josephus
+          #  nxndr
+          #  ServinVirgin (?)
+        };
 
         serverProperties = {
           server-port = 25566;
