@@ -73,8 +73,8 @@ packwiz modrinth add https://modrinth.com/mod/zombie-awareness/version/nkFcvMt7
 packwiz modrinth add https://modrinth.com/mod/improved-mobs/version/1.20.1-1.13.6-fabric
 packwiz modrinth add https://modrinth.com/mod/vmp-fabric/version/0.2.0+beta.7.102+1.20.1
 packwiz modrinth add https://modrinth.com/mod/tooltipfix/version/1.1.1-1.20
-
-
+packwiz modrinth add https://modrinth.com/mod/modmenu/version/7.2.2
+packwiz modrinth add https://modrinth.com/mod/yacl/version/3.6.6+1.20.1-fabric
 
 
 
