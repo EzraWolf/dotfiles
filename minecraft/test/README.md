@@ -8,7 +8,7 @@ packwiz modrinth add https://modrinth.com/mod/better-compatibility-checker/versi
 packwiz modrinth add https://modrinth.com/plugin/chunky/version/NHWYq9at
 packwiz modrinth add https://modrinth.com/mod/clumps/version/hefSwtn6
 packwiz modrinth add https://modrinth.com/mod/ferrite-core/version/6.0.1
-packwiz modrinth add https://modrinth.com/mod/c2me-fabric/version/0.2.0+alpha.11.16+1.20.1
+packwiz modrinth add https://modrinth.com/mod/c2me-fabric/version/0.2.0+alpha.11.13+1.20.1
 packwiz modrinth add https://modrinth.com/mod/faster-random/version/5.1.0
 packwiz modrinth add https://modrinth.com/mod/lithium/version/mc1.20.1-0.11.3-fabric
 packwiz modrinth add https://modrinth.com/mod/krypton/version/0.2.3
