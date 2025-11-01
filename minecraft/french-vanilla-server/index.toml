@@ -958,8 +958,8 @@ hash = "5525baa8ad75041025127697dfb53232afee87c23ed56517f10577d3eaa04ec2"
 metafile = true
 
 [[files]]
-file = "mods/enchancement.pw.toml"
-hash = "bfb83e20144baaee43d477d2887269ea4b94c4f29f39533d76d65100c979f8f1"
+file = "mods/enchantments-plus.pw.toml"
+hash = "5c69735ba1d5e081a9cadb9bcfea554c3a7232fe38a8f71a4fca89eb97b2479b"
 metafile = true
 
 [[files]]
@@ -1163,6 +1163,11 @@ hash = "98553c2d49ef3a888954f24b7c49fe3442c01fd4fc1f1ed52c5898ed29d29d3b"
 metafile = true
 
 [[files]]
+file = "mods/superior-hammers.pw.toml"
+hash = "0f216db3128afc42f79768892a070568ccafe36c78d1293ebe69df005d8f634a"
+metafile = true
+
+[[files]]
 file = "mods/survivality.pw.toml"
 hash = "86bd54943c3ec34718c42dd870972c0caeb1fbc6c0a163f3e0948441e6130959"
 metafile = true
@@ -1180,11 +1185,6 @@ metafile = true
 [[files]]
 file = "mods/terralith.pw.toml"
 hash = "3b61fcf1c80cfdd79282be71ddfa9cce02fc13f8d87a760db455e2a97b801f40"
-metafile = true
-
-[[files]]
-file = "mods/tooltipfix.pw.toml"
-hash = "ee103bf45111c2cd7ea2d9b31087867dd4b0d07a4b7dad7b138a4ae506127b37"
 metafile = true
 
 [[files]]

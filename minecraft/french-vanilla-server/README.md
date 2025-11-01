@@ -30,7 +30,8 @@ packwiz modrinth add https://modrinth.com/mod/easy-magic/version/v8.0.1-1.20.1-F
 packwiz modrinth add https://modrinth.com/mod/easy-shulker-boxes/version/v8.0.2-1.20.1-Fabric
 packwiz modrinth add https://modrinth.com/mod/visual-workbench/version/v8.0.1-1.20.1-Fabric
 packwiz modrinth add https://modrinth.com/mod/enhanced-mob-spawners/version/lY1pPgkT
-packwiz modrinth add https://modrinth.com/mod/enchancement/version/1.20-25
+packwiz modrinth add https://modrinth.com/mod/superior-hammers/version/2.1.5-1.20.1-fabric
+packwiz modrinth add https://modrinth.com/mod/enchantments-plus/version/1.2.2+1.20.1
 packwiz modrinth add https://modrinth.com/mod/farmers-delight-refabricated/version/1.20.1-2.4.0
 packwiz modrinth add https://modrinth.com/mod/faster-random/version/5.1.0
 packwiz modrinth add https://modrinth.com/mod/ferrite-core/version/6.0.1
