@@ -32,9 +32,41 @@ packwiz modrinth add https://modrinth.com/mod/rotten-flesh-to-leather-mod-fabric
 packwiz modrinth add https://modrinth.com/mod/snow-real-magic/version/QVh65fYg
 packwiz modrinth add https://modrinth.com/mod/snow-under-trees-remastered/version/2.5.4+1.20.1
 packwiz modrinth add https://modrinth.com/mod/survivality/version/1.3.1
-packwiz modrinth add 
-packwiz modrinth add 
-packwiz modrinth add 
+
+Fabric Vanilla+
+
+packwiz modrinth add https://modrinth.com/mod/accelerated-decay/version/3.0.1
+packwiz modrinth add https://modrinth.com/mod/basicweapons/version/1.2.5+1.20.1
+packwiz modrinth add https://modrinth.com/mod/building-but-better/version/2.0pre3
+packwiz modrinth add https://modrinth.com/mod/dark-paintings/version/3iBNbsmV
+packwiz modrinth add https://modrinth.com/mod/easy-anvils/version/v8.0.2-1.20.1-Fabric
+packwiz modrinth add https://modrinth.com/mod/easy-magic/version/v8.0.1-1.20.1-Fabric
+packwiz modrinth add https://modrinth.com/mod/easy-shulker-boxes/version/v8.0.2-1.20.1-Fabric
+packwiz modrinth add https://modrinth.com/mod/visual-workbench/version/v8.0.1-1.20.1-Fabric
+packwiz modrinth add https://modrinth.com/mod/superior-hammers/version/2.1.5-1.20.1-fabric
+packwiz modrinth add https://modrinth.com/mod/enchantments-plus/version/1.2.2+1.20.1
+packwiz modrinth add https://modrinth.com/mod/enhanced-mob-spawners/version/lY1pPgkT
+packwiz modrinth add https://modrinth.com/mod/smarter-farmers-farmers-replant/version/1.20-2.1.2
+packwiz modrinth add https://modrinth.com/mod/farmers-delight-refabricated/version/1.20.1-2.4.0
+packwiz modrinth add "https://modrinth.com/mod/guard-villagers-(fabricquilt)/version/2.0.9-1.20.1"
+packwiz modrinth add https://modrinth.com/mod/immersive-armors/version/1.7.1+1.20.1
+packwiz modrinth add https://modrinth.com/mod/improved-village-placement/version/1.1.1
+packwiz modrinth add https://modrinth.com/datapack/lukis-grand-capitals/version/1.1.2+mod
+packwiz modrinth add https://modrinth.com/mod/improved-mobs/version/1.20.1-1.13.6-fabric
+packwiz modrinth add https://modrinth.com/mod/zombie-awareness/version/nkFcvMt7
+packwiz modrinth add "https://modrinth.com/mod/sophisticated-backpacks-(unoffical-fabric-port)/version/1.20.1-3.23.4.5.110"
+packwiz modrinth add "https://modrinth.com/mod/sophisticated-storage-(unofficial-fabric-port)/version/1.20.1-1.3.5.9.136"
+packwiz modrinth add "https://modrinth.com/mod/sophisticated-storage-in-motion-(unofficial-fabric-port)/version/1.20.1-0.10.5.1.37"
+packwiz modrinth add https://modrinth.com/mod/sparsestructures/version/XcUzPH3Z
+packwiz modrinth add https://modrinth.com/mod/lithostitched/version/1.4.11-fabric-1.20
+packwiz modrinth add https://modrinth.com/mod/lootr/version/0.7.35.85
+packwiz modrinth add https://modrinth.com/datapack/tectonic/version/3.0.16
+packwiz modrinth add https://modrinth.com/datapack/terralith/version/2.5.4
+packwiz modrinth add https://modrinth.com/mod/tree-harvester/version/EQYmDYvI
+packwiz modrinth add https://modrinth.com/mod/trimseffects/version/2.1.2
+packwiz modrinth add https://modrinth.com/datapack/vanilla-refresh/version/1.4.19h+mod
+packwiz modrinth add https://modrinth.com/mod/universal-bone-meal/version/v8.0.1-1.20.1-Fabric
+packwiz modrinth add https://modrinth.com/mod/universal-enchants/version/v8.0.0-1.20.1-Fabric
 packwiz modrinth add 
 packwiz modrinth add 
 packwiz modrinth add 

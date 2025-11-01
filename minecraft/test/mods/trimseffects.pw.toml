@@ -1,0 +1,13 @@
+name = "TrimsEffects"
+filename = "trimeffects-fabric-mc1.20-2.1.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/BL7ADJ7w/versions/zH9nZIu1/trimeffects-fabric-mc1.20-2.1.2.jar"
+hash-format = "sha512"
+hash = "029fa51c5fbd1368a4bbb263dabea795ca4708fd1d174cea9dfd1ec0494317c0b74b5f9e491b58d2b6786445b269a8228eca56d492b127cc622ff720e336d207"
+
+[update]
+[update.modrinth]
+mod-id = "BL7ADJ7w"
+version = "zH9nZIu1"
