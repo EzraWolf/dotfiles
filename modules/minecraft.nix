@@ -5,7 +5,17 @@
   inputs,
   lib,
   ...
-}: {
+}: let
+
+  modpack = pkgs.fetchPackwizModpack {
+    url = "https://raw.githubusercontent.com/EzraWolf/modpacks/main/FrenchVanilla/pack.toml";
+    packHash = "sha256-c7VeN7EiLlRHaQqfUZKMSiwr2hM+uMOCsJ83PHum9lc=";
+  };
+
+  mcVersion = modpack.manifest.versions.minecraft;
+  fabricVersion = modpack.manifest.versions.fabric;
+  serverVersion = lib.replaceStrings ["."] ["_"] "fabric-${mcVersion}";
+in {
   imports = [inputs.nix-minecraft.nixosModules.minecraft-servers];
   nixpkgs.overlays = [inputs.nix-minecraft.overlay];
 
@@ -15,16 +25,16 @@
     openFirewall = true;
 
     servers = {
-      test-server = {
+      french-vanilla = {
         enable = true;
         autoStart = true;
-        #package = pkgs.fabricServers.fabric-1_20_1;
-
+        package = pkgs.fabricServers.${serverVersion}.override {loaderVersion = fabricVersion;};
+q
         serverProperties = {
           server-port = 25565;
           white-list = true;
           max-players = 16;
-          motd = "§k";
+          motd = "Bruh";
 
           gamemode = "survival";
           difficulty = "normal";
@@ -49,18 +59,12 @@
         };
 
         # Fetch hosted modpack
-        symlinks = let
-          modpack = pkgs.fetchPackwizModpack {
-            url = "https://github.com/EzraWolf/modpacks/blob/main/FrenchVanilla/pack.toml";
-            packHash = "1c97e6c60b29d3a7e29a7607bb8aa2b2b698180886d60b701be34d84d976c1b6";
-          };
-
-          mcVersion = modpack.manifest.versions.minecraft;
-          fabricVersion = modpack.manifest.versions.fabric;
-          serverVersion = lib.replaceStrings ["."] ["_"] "fabric-${mcVersion}";
-        in {
-          package = pkgs.fabricServers.${serverVersion}.override {loaderVersion = fabricVersion;};
+        symlinks = {
           "mods" = "${modpack}/mods";
+        };
+
+        files = {
+          "config" = "${modpack}/config";
         };
 
         jvmOpts = "-Xms4G -Xmx6G -XX:+UseG1GC";

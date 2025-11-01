@@ -69,6 +69,11 @@
           home-manager.users.${vars.username} = import ./core/home.nix;
         }
         stylix.nixosModules.stylix
+
+        nix-minecraft.nixosModules.minecraft-servers
+        ({ pkgs, ...}: {
+          nixpkgs.overlays = [ nix-minecraft.overlay ];
+        })
       ];
     };
   };
