@@ -1058,11 +1058,6 @@ hash = "ede2f61d6b592f44294fa8790c2f050729c487aa86aba09034f2ef30d45e0e93"
 metafile = true
 
 [[files]]
-file = "mods/modmenu.pw.toml"
-hash = "d7145fd1bd8b4bb6a3b84652a96a68870fb3ab32230f27520bb9362fd17ec39f"
-metafile = true
-
-[[files]]
 file = "mods/moonlight.pw.toml"
 hash = "9830d4b93e2fea7e398078143efdb7a271b04a4f23565dd9b02744f2aca23647"
 metafile = true
@@ -1170,11 +1165,6 @@ metafile = true
 [[files]]
 file = "mods/superior-hammers.pw.toml"
 hash = "0f216db3128afc42f79768892a070568ccafe36c78d1293ebe69df005d8f634a"
-metafile = true
-
-[[files]]
-file = "mods/survivality.pw.toml"
-hash = "86bd54943c3ec34718c42dd870972c0caeb1fbc6c0a163f3e0948441e6130959"
 metafile = true
 
 [[files]]

@@ -64,7 +64,6 @@ packwiz modrinth add https://modrinth.com/datapack/terralith/version/2.5.4
 packwiz modrinth add https://modrinth.com/datapack/tectonic/version/3.0.16
 packwiz modrinth add https://modrinth.com/datapack/vanilla-refresh/version/1.4.19g+mod
 packwiz modrinth add https://modrinth.com/mod/spyglass-improvements/version/1.5.11+mc1.20.1+fabric
-packwiz modrinth add https://modrinth.com/mod/survivality/version/1.3.1
 packwiz modrinth add https://modrinth.com/mod/tree-harvester/version/EQYmDYvI
 packwiz modrinth add https://modrinth.com/mod/trimseffects/version/2.1.2
 packwiz modrinth add https://modrinth.com/mod/universal-bone-meal/version/v8.0.1-1.20.1-Fabric
@@ -72,11 +71,6 @@ packwiz modrinth add https://modrinth.com/mod/universal-enchants/version/v8.0.0-
 packwiz modrinth add https://modrinth.com/mod/zombie-awareness/version/nkFcvMt7
 packwiz modrinth add https://modrinth.com/mod/improved-mobs/version/1.20.1-1.13.6-fabric
 packwiz modrinth add https://modrinth.com/mod/vmp-fabric/version/0.2.0+beta.7.102+1.20.1
-packwiz modrinth add https://modrinth.com/mod/tooltipfix/version/1.1.1-1.20
-packwiz modrinth add https://modrinth.com/mod/modmenu/version/7.2.2
-packwiz modrinth add https://modrinth.com/mod/yacl/version/3.6.6+1.20.1-fabric
-
-
 
 OLD installation command list:
 packwiz modrinth add https://modrinth.com/mod/alternate-current/version/mc1.20-1.9.0
