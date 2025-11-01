@@ -1209,7 +1209,7 @@ metafile = true
 
 [[files]]
 file = "mods/vanilla-refresh.pw.toml"
-hash = "43f088fb74ecc0109b597abd3d5d22eadae6d74a4a3f741b98db3b8e852f6f30"
+hash = "f6058827d13219b89e1f2a15ce02ebf5bc86482e4b6971520627c32232545577"
 metafile = true
 
 [[files]]
