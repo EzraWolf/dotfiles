@@ -22,7 +22,6 @@ packwiz modrinth add https://modrinth.com/mod/polymorph/version/0.49.10+1.20.1
 packwiz modrinth add https://modrinth.com/mod/starlight/version/1.1.2+1.20
 packwiz modrinth add https://modrinth.com/mod/vmp-fabric/version/0.2.0+beta.7.102+1.20.1
 packwiz modrinth add https://modrinth.com/mod/modernfix/version/5.24.4+mc1.20.1
-packwiz modrinth add https://modrinth.com/mod/yacl/version/3.6.6+1.20.1-fabric
 
 ---
 
