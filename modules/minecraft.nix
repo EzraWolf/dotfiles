@@ -9,7 +9,7 @@
 }: let
     modpack = pkgs.fetchPackwizModpack {
     url = "https://raw.githubusercontent.com/EzraWolf/dotfiles/refs/heads/T2/minecraft/french-vanilla-server/pack.toml";
-    packHash = "sha256-HQRt/fgdCHsArGiZ3sgMJpu9qeZg/Tw825Q8DnEObqI=";
+    packHash = "sha256-oKQqF4Ozfxf8M442rrdzYziMpbr4n2iqptSDVqxe59Q=";
   };
 
 in {
