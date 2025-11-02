@@ -1,0 +1,13 @@
+name = "Village Nullifier"
+filename = "village-nullifier-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/BHCrWnHJ/versions/SsGwsheS/village-nullifier-1.0.0.jar"
+hash-format = "sha512"
+hash = "76262e638c2e37f6c82f729a05d9d0eae75810d9b277458b5346cda080e8a5a1739db184d98c4b4b594980f1c92ed8956835f01c3fa284d321c1d80807ff4e1e"
+
+[update]
+[update.modrinth]
+mod-id = "BHCrWnHJ"
+version = "SsGwsheS"

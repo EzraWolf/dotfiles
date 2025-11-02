@@ -51,7 +51,6 @@ packwiz modrinth add https://modrinth.com/mod/farmers-delight-refabricated/versi
 packwiz modrinth add "https://modrinth.com/mod/guard-villagers-(fabricquilt)/version/2.0.9-1.20.1"
 packwiz modrinth add https://modrinth.com/mod/immersive-armors/version/1.7.1+1.20.1
 packwiz modrinth add https://modrinth.com/mod/improved-village-placement/version/1.1.1
-packwiz modrinth add https://modrinth.com/datapack/lukis-grand-capitals/version/1.1.2+mod
 packwiz modrinth add https://modrinth.com/mod/improved-mobs/version/1.20.1-1.13.6-fabric
 packwiz modrinth add https://modrinth.com/mod/zombie-awareness/version/nkFcvMt7
 packwiz modrinth add "https://modrinth.com/mod/sophisticated-backpacks-(unoffical-fabric-port)/version/1.20.1-3.23.4.5.110"
@@ -67,16 +66,16 @@ packwiz modrinth add https://modrinth.com/mod/trimseffects/version/2.1.2
 packwiz modrinth add https://modrinth.com/datapack/vanilla-refresh/version/1.4.19h+mod
 packwiz modrinth add https://modrinth.com/mod/universal-bone-meal/version/v8.0.1-1.20.1-Fabric
 packwiz modrinth add https://modrinth.com/mod/universal-enchants/version/v8.0.0-1.20.1-Fabric
-packwiz modrinth add 
-packwiz modrinth add 
-packwiz modrinth add 
-packwiz modrinth add 
-packwiz modrinth add 
-packwiz modrinth add 
-packwiz modrinth add 
-packwiz modrinth add 
-packwiz modrinth add 
-packwiz modrinth add 
-packwiz modrinth add 
-packwiz modrinth add 
-packwiz modrinth add 
+packwiz modrinth add https://modrinth.com/datapack/structory/version/1.3.5
+packwiz modrinth add https://modrinth.com/datapack/remove-terralith-intro-message/version/1.1+mod
+packwiz modrinth add https://modrinth.com/mod/towns-and-towers/version/1.12
+packwiz modrinth add https://modrinth.com/datapack/village-nullifier/version/1.0.0+mod
+packwiz modrinth add https://modrinth.com/mod/yungs-better-nether-fortresses/version/1.20-Fabric-2.0.6
+packwiz modrinth add https://modrinth.com/mod/yungs-better-ocean-monuments/version/1.20-Fabric-3.0.4
+packwiz modrinth add https://modrinth.com/mod/yungs-better-dungeons/version/1.20-Fabric-4.0.4
+packwiz modrinth add https://modrinth.com/mod/yungs-better-mineshafts/version/1.20-Fabric-4.0.4
+packwiz modrinth add https://modrinth.com/mod/yungs-better-jungle-temples/version/1.20-Fabric-2.0.5
+packwiz modrinth add https://modrinth.com/mod/yungs-better-end-island/version/1.20-Fabric-2.0.6
+packwiz modrinth add https://modrinth.com/mod/yungs-better-strongholds/version/1.20-Fabric-4.0.3
+packwiz modrinth add https://modrinth.com/mod/yungs-better-caves/version/1.20.1-Fabric-2.0.5
+packwiz modrinth add https://modrinth.com/mod/yungs-cave-biomes/version/1.20.1-Fabric-2.0.5
