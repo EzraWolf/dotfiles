@@ -691,6 +691,11 @@ hash = "4449401b59481016fa2a66d6e749795129160cb1ab3e7932e15033c6b5815455"
 metafile = true
 
 [[files]]
+file = "mods/geckolib.pw.toml"
+hash = "21d2df923fa369d69a40d69f6466153146bf403367430eaeb2569c1554857df8"
+metafile = true
+
+[[files]]
 file = "mods/guard-villagers-(fabricquilt).pw.toml"
 hash = "62cb0a28a1039bd90f1d3534ed52ada9b38a76fd27f98eb44a0ff31493652563"
 metafile = true
@@ -861,6 +866,11 @@ hash = "f834c8a1a0cea26deb377606bdf00f065304fe2c87828984b93dc6b4ee49691f"
 metafile = true
 
 [[files]]
+file = "mods/terrablender.pw.toml"
+hash = "b3ae602303fd717bff2344bfb89aa427e2b4a1ab5fffdcc25183b22102c492df"
+metafile = true
+
+[[files]]
 file = "mods/terralith.pw.toml"
 hash = "3b61fcf1c80cfdd79282be71ddfa9cce02fc13f8d87a760db455e2a97b801f40"
 metafile = true
@@ -953,6 +963,11 @@ metafile = true
 [[files]]
 file = "mods/yungs-better-strongholds.pw.toml"
 hash = "b2af03e504a1827f2f6fc09597e7d51f4ecd64ab1ebb329a9eb9ffb98372673a"
+metafile = true
+
+[[files]]
+file = "mods/yungs-cave-biomes.pw.toml"
+hash = "c88e67b13d956c65d84f07d238caf8f8f5ebee8790c9d1ff43013045dda42601"
 metafile = true
 
 [[files]]

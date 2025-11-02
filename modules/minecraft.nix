@@ -46,6 +46,7 @@ in {
           d = "76e4f93b-6d75-4dc1-9bb1-a43feaffb94d";
           e = "7f2bd047-3516-43ec-967d-48bb5e535519";
           f = "2852ae6e-c099-43de-8aab-995638ead7de";
+          g = "9a2b04c0-d631-4bc8-8ae4-64dc770468e8";
         };
 
         operators = {
