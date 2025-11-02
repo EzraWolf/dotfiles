@@ -1,6 +1,8 @@
 
 Temporary test to systematically add mods one by one because everything breaks for no reason at all not one never an actually valid and legitimate reason not one nothing and never.
 
+sudo tmux -S /run/minecraft/french-vanilla.sock attach
+
 Fabric Core:
 
 packwiz modrinth add https://modrinth.com/mod/alternate-current/version/mc1.20-1.9.0
@@ -22,6 +24,13 @@ packwiz modrinth add https://modrinth.com/mod/polymorph/version/0.49.10+1.20.1
 packwiz modrinth add https://modrinth.com/mod/starlight/version/1.1.2+1.20
 packwiz modrinth add https://modrinth.com/mod/vmp-fabric/version/0.2.0+beta.7.102+1.20.1
 packwiz modrinth add https://modrinth.com/mod/modernfix/version/5.24.4+mc1.20.1
+packwiz modrinth add https://modrinth.com/mod/emi/version/1.1.22+1.20.1+fabric
+packwiz modrinth add https://modrinth.com/mod/extra-mod-integrations/version/0.4.7+1.20.1
+packwiz modrinth add https://modrinth.com/mod/emiffect/version/2.1.6+mc1.20.1
+packwiz modrinth add https://modrinth.com/mod/emi-loot/version/0.7.6+1.20.1+fabric
+packwiz modrinth add https://modrinth.com/mod/emitrades/version/fabric-1.2.1+mc1.20.1
+packwiz modrinth add https://modrinth.com/mod/emi-enchanting/version/0.1.2+1.20.1
+packwiz modrinth add https://modrinth.com/mod/patchouli/version/1.20.1-84.1-fabric
 
 ---
 
@@ -32,6 +41,8 @@ packwiz modrinth add https://modrinth.com/mod/rotten-flesh-to-leather-mod-fabric
 packwiz modrinth add https://modrinth.com/mod/snow-real-magic/version/QVh65fYg
 packwiz modrinth add https://modrinth.com/mod/snow-under-trees-remastered/version/2.5.4+1.20.1
 packwiz modrinth add https://modrinth.com/mod/survivality/version/1.3.1
+packwiz modrinth add https://modrinth.com/datapack/sleep/version/v2.1.3+mod
+packwiz modrinth add https://modrinth.com/mod/cosmetic-armor/version/1.6.0
 
 Fabric Vanilla+
 
@@ -77,3 +88,7 @@ packwiz modrinth add https://modrinth.com/mod/yungs-better-end-island/version/1.
 packwiz modrinth add https://modrinth.com/mod/yungs-better-strongholds/version/1.20-Fabric-4.0.3
 packwiz modrinth add https://modrinth.com/mod/yungs-better-caves/version/1.20.1-Fabric-2.0.5
 packwiz modrinth add https://modrinth.com/mod/yungs-cave-biomes/version/1.20.1-Fabric-2.0.5
+packwiz modrinth add https://modrinth.com/mod/better-combat/version/1.8.6+1.20.1-fabric
+packwiz modrinth add https://modrinth.com/mod/combat-nouveau/version/v8.0.5-1.20.1-Fabric
+packwiz modrinth add https://modrinth.com/mod/paladins-furniture/version/1.20-v1.4.4-fabric
+

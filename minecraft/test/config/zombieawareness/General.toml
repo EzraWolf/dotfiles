@@ -33,7 +33,6 @@
 	zombieRandSpeedBoost = 0.3
 	#How likely zombies making noise near you will attract other zombies, higher = less likely, 0 = every time they make a noise
 	#Range: > 0
-	# Increased to make reinforcement much less likely (higher = less likely)
 	noisyZombiesReinforceOddsTo1 = 10
 	#Prevent non zombies from being attracted to light
 	awareness_Light_OnlyZombies = true
@@ -58,7 +57,6 @@
 	frequentSoundThreshold = 1000
 	#Every 2 seconds, the percent chance a mob has to look for an active sense in range, 100 = nearly instant, 10 = slowly over time, performance sensitive setting, higher = more frequent pathfind attempts
 	#Range: > 0
-	# Lowered to reduce how often mobs check for senses, which reduces reinforcements and aggregations at night
 	findSense_PercentChance = 5
 	#-
 	debugConsoleOmniscient = false

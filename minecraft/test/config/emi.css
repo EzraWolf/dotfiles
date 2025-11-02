@@ -167,7 +167,7 @@
 	/**
 	 * The pages in the left sidebar
 	 */
-	left-sidebar-pages: favorites;
+	left-sidebar-pages: none;
 
 	/**
 	 * The subpanels in the left sidebar
@@ -293,7 +293,7 @@
 	/**
 	 * Where to position the bottom sidebar
 	 */
-	bottom-sidebar-align: center, center;
+	bottom-sidebar-align: right, center;
 
 	/**
 	 * Whether to render the header buttons and page count for the bottom sidebar

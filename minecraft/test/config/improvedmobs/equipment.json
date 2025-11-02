@@ -7,106 +7,106 @@
   ],
   "MAINHAND": {
     "basicweapons:iron_hammer": [
-      800,
-      0.5
+      1000,
+      0.6
     ],
     "basicweapons:wooden_hammer": [
-      1200,
-      0.02
+      1162,
+      0.12
     ],
     "minecraft:bow": [
-      1100,
-      4.5
+      1198,
+      2.1
     ],
     "minecraft:crossbow": [
-      1400,
-      3.8
+      1267,
+      0.95
     ],
     "minecraft:iron_axe": [
-      3120,
-      0.5
+      1625,
+      0.6
     ],
     "minecraft:iron_sword": [
-      3200,
-      0.05
+      1621,
+      0.15
     ],
     "minecraft:stone_axe": [
-      3320,
-      0.04
+      2021,
+      0.14
     ],
     "minecraft:stone_sword": [
-      3400,
-      0.03
+      2053,
+      0.15
     ],
     "minecraft:wooden_axe": [
-      3450,
-      0.02
+      1936,
+      0.18
     ],
     "minecraft:wooden_sword": [
-      3500,
-      0.01
+      1801,
+      0.13
     ]
   },
   "OFFHAND": {
     "minecraft:shield": [
-      1000,
-      1.6
+      1175,
+      1.7
     ]
   },
   "FEET": {
     "minecraft:chainmail_boots": [
-      1300,
-      0.54
+      1202,
+      0.64
     ],
     "minecraft:iron_boots": [
-      1100,
-      0.87
+      1121,
+      0.35
     ],
     "minecraft:leather_boots": [
-      1600,
-      0.02
+      1324,
+      0.55
     ]
   },
   "LEGS": {
     "minecraft:chainmail_leggings": [
-      1300,
-      0.54
+      1202,
+      0.64
     ],
     "minecraft:iron_leggings": [
-      1100,
-      0.87
+      1121,
+      0.35
     ],
     "minecraft:leather_leggings": [
-      1600,
-      0.02
+      1324,
+      0.55
     ]
   },
   "CHEST": {
     "minecraft:chainmail_chestplate": [
-      1300,
-      0.54
+      1202,
+      0.64
     ],
     "minecraft:iron_chestplate": [
-      1100,
-      0.87
+      1121,
+      0.35
     ],
     "minecraft:leather_chestplate": [
-      1600,
-      0.02
+      1324,
+      0.55
     ]
   },
   "HEAD": {
     "minecraft:chainmail_helmet": [
-      1300,
-      0.54
+      1202,
+      0.64
     ],
     "minecraft:iron_helmet": [
-      1100,
-      0.87
+      1121,
+      0.35
     ],
     "minecraft:leather_helmet": [
-      1600,
-      0.02
+      1324,
+      0.55
     ]
   }
 }
