@@ -50,7 +50,6 @@ packwiz modrinth add https://modrinth.com/mod/smarter-farmers-farmers-replant/ve
 packwiz modrinth add https://modrinth.com/mod/farmers-delight-refabricated/version/1.20.1-2.4.0
 packwiz modrinth add "https://modrinth.com/mod/guard-villagers-(fabricquilt)/version/2.0.9-1.20.1"
 packwiz modrinth add https://modrinth.com/mod/immersive-armors/version/1.7.1+1.20.1
-packwiz modrinth add https://modrinth.com/mod/improved-village-placement/version/1.1.1
 packwiz modrinth add https://modrinth.com/mod/improved-mobs/version/1.20.1-1.13.6-fabric
 packwiz modrinth add https://modrinth.com/mod/zombie-awareness/version/nkFcvMt7
 packwiz modrinth add "https://modrinth.com/mod/sophisticated-backpacks-(unoffical-fabric-port)/version/1.20.1-3.23.4.5.110"
@@ -59,7 +58,6 @@ packwiz modrinth add "https://modrinth.com/mod/sophisticated-storage-in-motion-(
 packwiz modrinth add https://modrinth.com/mod/sparsestructures/version/XcUzPH3Z
 packwiz modrinth add https://modrinth.com/mod/lithostitched/version/1.4.11-fabric-1.20
 packwiz modrinth add https://modrinth.com/mod/lootr/version/0.7.35.85
-packwiz modrinth add https://modrinth.com/datapack/tectonic/version/3.0.16
 packwiz modrinth add https://modrinth.com/datapack/terralith/version/2.5.4
 packwiz modrinth add https://modrinth.com/mod/tree-harvester/version/EQYmDYvI
 packwiz modrinth add https://modrinth.com/mod/trimseffects/version/2.1.2
