@@ -9,7 +9,7 @@
 }: let
   modpack = pkgs.fetchPackwizModpack {
     url = "https://raw.githubusercontent.com/EzraWolf/dotfiles/refs/heads/T2/minecraft/test/pack.toml";
-    packHash = "sha256-OPQF6N/knln1DBVpG6vdctOWvHwwgjn07mEoXUv+Z1A=";
+    packHash = "sha256-OPQF6N/knln1DBVpG1vdctOWvHwwgjn07mEoXUv+Z1A=";
   };
 in {
   imports = [inputs.nix-minecraft.nixosModules.minecraft-servers];
@@ -27,7 +27,7 @@ in {
         package = pkgs.fabricServers.fabric-1_20_1;
 
         serverProperties = {
-          server-port = 25565;
+          server-port = 6502;
           white-list = true;
           max-players = 16;
           motd = "Bruh";
@@ -84,7 +84,7 @@ in {
         };
 
         serverProperties = {
-          server-port = 25566;
+          server-port = 8822;
         };
 
         jvmOpts = "-Xms4G -Xmx6G -XX:+UseG1GC";
