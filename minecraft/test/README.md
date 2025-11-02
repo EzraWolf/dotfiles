@@ -31,6 +31,7 @@ packwiz modrinth add https://modrinth.com/mod/emi-loot/version/0.7.6+1.20.1+fabr
 packwiz modrinth add https://modrinth.com/mod/emitrades/version/fabric-1.2.1+mc1.20.1
 packwiz modrinth add https://modrinth.com/mod/emi-enchanting/version/0.1.2+1.20.1
 packwiz modrinth add https://modrinth.com/mod/patchouli/version/1.20.1-84.1-fabric
+packwiz modrinth add https://modrinth.com/mod/fzzy-config/version/0.7.3+1.20.1
 
 ---
 
