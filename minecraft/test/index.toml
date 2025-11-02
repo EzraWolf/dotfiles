@@ -45,6 +45,106 @@ file = "config/betteradvancements.json"
 hash = "82ffaabd04cb676394314ad57bacb68b9160d2d8fec5109f1f106115e71417af"
 
 [[files]]
+file = "config/bettercaves/README.txt"
+hash = "e6f25132180339d5b7f53c1f5473f28cdf743f76292bc8f87142e4b0300e0f2c"
+
+[[files]]
+file = "config/bettercaves/fabric-1_20_1/README.txt"
+hash = "1dc29f3ad9f62887f2667aeaed28c3fd3a2520055382ecb3636e3cb9ea563baa"
+
+[[files]]
+file = "config/bettercaves/fabric-1_20_1/liquidregions.json"
+hash = "ad0e43cd1d8fff16d76ff6036699bd67598ff8bc18220b7e8e951245c92cf139"
+
+[[files]]
+file = "config/betterdeserttemples-fabric-1_20.toml"
+hash = "06a1b8b7774df6bef4dc9b82e140a4211d41c93178ee0d9d25105d05a6c20566"
+
+[[files]]
+file = "config/betterdeserttemples/README.txt"
+hash = "3646bc39be8c42a1432506e77721f3b963d33948d4bbd4cd5a10703834979116"
+
+[[files]]
+file = "config/betterdeserttemples/fabric-1_20/README.txt"
+hash = "80ba474fdd1912739a1dc3326de6539ccfceb9d5c97f540131b567e295a7b112"
+
+[[files]]
+file = "config/betterdeserttemples/fabric-1_20/armorstands.json"
+hash = "cd201e1ec027c49ed740dfe5386e45a54913d58c5383524576bd0b9ed54824fe"
+
+[[files]]
+file = "config/betterdeserttemples/fabric-1_20/itemframes.json"
+hash = "2a965ed6fe44b40c2f4dcb05376259ef78478efe821aad945c17bfa7d5b815b3"
+
+[[files]]
+file = "config/betterdungeons-fabric-1_20.toml"
+hash = "c0809814af173f138d83495d36aabcccda93ba2f2a49ec5b7e1c87a201efee77"
+
+[[files]]
+file = "config/betterendisland-fabric-1_20.toml"
+hash = "8dc553b84ad47cefbfbe3706d2172a06caa2549ad8e6f151a3b2763ddf08936f"
+
+[[files]]
+file = "config/betterfortresses-fabric-1_20.toml"
+hash = "c6f718e24389dd618b788ea1ef0c64d3689e9408fd9a482e67ecece0dc392ece"
+
+[[files]]
+file = "config/betterfortresses/README.txt"
+hash = "a4e97263d2f099fcbc3fd7646c85c562e1eb7659bfa5ff66b11f76afaa2f9c06"
+
+[[files]]
+file = "config/betterfortresses/fabric-1_20/README.txt"
+hash = "1175dbf9cd2e7c91b1c852a51e3c0203c68484917e877465b283e2370ad62864"
+
+[[files]]
+file = "config/betterfortresses/fabric-1_20/itemframes.json"
+hash = "e21444ee64f3392f6d6cc762440ac76ab834d45d69536683d1cf2a461cad2e97"
+
+[[files]]
+file = "config/betterjungletemples-fabric-1_20.toml"
+hash = "69a3aa51ef5a881f01a6515f72a57a10b8df7c7b93588f424fc07c864a0933e1"
+
+[[files]]
+file = "config/bettermineshafts-fabric-1_20.toml"
+hash = "d486f4672659b59f9a855d9ebce345d8a983c504d24b99613ce280db657c40f5"
+
+[[files]]
+file = "config/betteroceanmonuments-fabric-1_20.toml"
+hash = "dbba9af53d8bfb9f46cb4c9ab525a72026ad0a13c36e8dd8efe7398a767c3187"
+
+[[files]]
+file = "config/betterstrongholds-fabric-1_20.toml"
+hash = "2dae469f9196a363cb5e9fb614788224a713378f22300a1afd6486f1d43766a2"
+
+[[files]]
+file = "config/betterstrongholds/README.txt"
+hash = "70aadca974d0adfe90f98930e23c15076b3d2e625c88e8c2aa6721d91a8c035f"
+
+[[files]]
+file = "config/betterstrongholds/fabric-1_20/README.txt"
+hash = "c857bda54ab01ca5db21cfe085dc75dcbb13d26054463cf301c74023783612fc"
+
+[[files]]
+file = "config/betterstrongholds/fabric-1_20/armorstands.json"
+hash = "e82a81445c0f6d9ee67b92b66cda2e2087b6271de73182db95c51fffeee8df1e"
+
+[[files]]
+file = "config/betterstrongholds/fabric-1_20/itemframes.json"
+hash = "3ba38e222066227497ae61131f7ba8d12603dc6f6529d8b94a2ae7ed296d9639"
+
+[[files]]
+file = "config/betterstrongholds/fabric-1_20/ores.json"
+hash = "a4d3469a07c3edb0347a039201c2c1194741177c11a5bc4488c1b60fe629c59e"
+
+[[files]]
+file = "config/betterstrongholds/fabric-1_20/rareblocks.json"
+hash = "22ddfc56eea90318dd976ba62550a1b8f185b8fbbb71bf1c1ada4b8aa24a04bb"
+
+[[files]]
+file = "config/betterwitchhuts-fabric-1_20.toml"
+hash = "063ce4f60934ab166dade45375ef5518df74be2c6c1e1f1a52ec181013803197"
+
+[[files]]
 file = "config/blur.json"
 hash = "cf0f2178068e6d9766ac8dea96b2a9f51480939a2f97c440816b6295744dd47a"
 
@@ -79,6 +179,14 @@ hash = "b6243b955bf123f86c947510d9f8f3a4b5f7b8fe3775d834f458d60a3223847f"
 [[files]]
 file = "config/continuity.json"
 hash = "00267a602028cbb037dcb0b5f803db31bed284235ca9c1ea189ad4179311a2f4"
+
+[[files]]
+file = "config/cristellib/minecraftED.json5"
+hash = "8e01cc9b7e46f74fd60ce36d3459628b8198cb988051ae52f14cda36ef0fd869"
+
+[[files]]
+file = "config/cristellib/minecraftP.json5"
+hash = "8fe09b83f2fe6bf9d547e99b8d883aef42bf3d9e2e6f5bd43ec3fcd4c7f756da"
 
 [[files]]
 file = "config/cubes-without-borders.json"
@@ -154,7 +262,7 @@ hash = "a5ba22e63061c1fb67f0f895f17681351eaeccc225faef966c29ee630593275e"
 
 [[files]]
 file = "config/fabric/indigo-renderer.properties"
-hash = "fd237f844f0301a81ae78e7462c81f5047207393ce0d9847ec118cd68c511d77"
+hash = "1692949288ef0ecdf330dbc77c72a35ee59843cff54374f07f56c58a9b25cb6e"
 
 [[files]]
 file = "config/farmersdelight-client.toml"
@@ -198,19 +306,19 @@ hash = "ca014144818d5ce9e66a9dcae1cf1414e1002747d9781616148311e682a2649f"
 
 [[files]]
 file = "config/improvedmobs/common.json"
-hash = "73ef6ad95654367d3af26f85ba7085955f248b03335d290d0f5eb0276a17088e"
+hash = "982dd0b4238f597c867bee21e12607ea69cdfa081517f0530abbb3352532dd6b"
 
 [[files]]
 file = "config/improvedmobs/equipment.json"
-hash = "e597774314f292670aee9923a2c72f1d2b7b0be9f556855bb8f94b327e34030b"
+hash = "a088bfd898d3a2cf22d253ccb08cfb4518a7d576100bfe578af33c53c199649e"
 
 [[files]]
 file = "config/indium-renderer.properties"
-hash = "95f8b9b88cccfe08e2add6293bb100fe89609c5c62ca3fe3224b516ae2f75693"
+hash = "d80aba98dbc69c3e8c9b9ea1d8eb19fab78f3f845068d5b55f34276a535989b3"
 
 [[files]]
 file = "config/iris.properties"
-hash = "79e75fb2f513e3179e416006ed9ef023fd82fb0c93fa8a903d2bfbacb7b09546"
+hash = "e1d85ccd52a04d5cd12ecdf6a27e2d600815b22aeda91c395c6e4763bcf46529"
 
 [[files]]
 file = "config/jade/hide-blocks.json"
@@ -241,6 +349,14 @@ file = "config/jei/blacklist.cfg"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
+file = "config/jei/ingredient-list-mod-sort-order.ini"
+hash = "6ec697d3b115c2bf2043e7932b51a62ad9e0e31574dd5952f3702182a82d2f73"
+
+[[files]]
+file = "config/jei/ingredient-list-type-sort-order.ini"
+hash = "5064fb08f3a4af3321de4746ac60fe83ac464732b684a38c68d97ad2c4bce440"
+
+[[files]]
 file = "config/jei/jei-client.ini"
 hash = "30503916553a0a302f433abd1c99a54303312cf426b7a6b49d0dff0461c82aba"
 
@@ -255,6 +371,14 @@ hash = "ee9bb0f0f8465629951fe9a532f3ebe3327671a12d4cc6395860d7f7494b970b"
 [[files]]
 file = "config/jei/jei-mod-id-format.ini"
 hash = "326b4f9b813ca8183bfaeee184cf7248c7a75c4d85b59322e349c0e964c253f3"
+
+[[files]]
+file = "config/jei/recipe-category-sort-order.ini"
+hash = "92e1b2c030fb6263edae70146210120e3c2f2f96aad0f078a7da4a8fb4501fa7"
+
+[[files]]
+file = "config/jei/world/server/Test_cb8f8b3/lookupHistory.ini"
+hash = "554314b35141a985202f8f56d87dd55fa00a683ad50d19239ebf81345f857240"
 
 [[files]]
 file = "config/kiwi-client.yaml"
@@ -322,7 +446,7 @@ hash = "254f67d1d2c394c8ba7a83faa5c3c349e39c73cc497f5dcc160c3ff671d3edcc"
 
 [[files]]
 file = "config/packetfixer.properties"
-hash = "c163f4efdc5805106aa3cd6d1da3b47e97b9e2ed1fb1152f210994d9b963f4da"
+hash = "c4bf84a6b538e90c3f5787511c45f820bd921e8b9a5b85af312cfa5889f21f21"
 
 [[files]]
 file = "config/pickupnotifier/pickupnotifier-client.toml"
@@ -442,7 +566,7 @@ hash = "e26b00784bb6239988759ed1a64551b9f301dc33c5a855d91e976ee4bf40ac8a"
 
 [[files]]
 file = "config/sound_physics_remastered/sound_rates.properties"
-hash = "884872cdb8145488bd390a6713fc1826b276c748045c996a92ffa732a688a3c6"
+hash = "7ad8b673b0f95a7e45dc268a3af1b1c40b2a1659aae243c456e1815db4a297e1"
 
 [[files]]
 file = "config/sound_physics_remastered/soundphysics.properties"
@@ -470,7 +594,7 @@ hash = "370cb0d795cd5143f878dbaa489ba2ec7cbd14228cafa07d4a86a27a2e08f923"
 
 [[files]]
 file = "config/sparsestructures.json5"
-hash = "75a830a8a005a44bbc21b51066d54558f6dd1fa61960e9fedd173ade24913725"
+hash = "0b6b21ae4fb0cad987f64f69238ab1d05016e0672fb9f67b8ec4a45c5eff8f90"
 
 [[files]]
 file = "config/spawnermod.json"
@@ -483,6 +607,18 @@ hash = "0a19036936420b0045fab196758eacb65f31e8560d41b858a6afebe63208f4a0"
 [[files]]
 file = "config/tectonic.json"
 hash = "dbda50d8ebba98f322b672f6552da3da8c66473f8b469b49c0672d6076db41fe"
+
+[[files]]
+file = "config/terrablender.toml"
+hash = "cd5428966b529748e9ba8785cf7a01d19db50ddb3f7f257226baed6defc54af5"
+
+[[files]]
+file = "config/towns_and_towers/structure_enable_or_disable_new.json5"
+hash = "3aaa6ac8835dbbce97928c4d0d03f9957749a7a57a3f1668597310e9227900da"
+
+[[files]]
+file = "config/towns_and_towers/structure_rarity_new.json5"
+hash = "1f6cddbcb2d89fbcc774d7bdae9987ccb031ba8fe024307357076ca617b17eeb"
 
 [[files]]
 file = "config/treeharvester.json5"
@@ -506,7 +642,7 @@ hash = "34b0bec9bd8c11543ef15e0f939422bd18a849956c2c3f9c9176dd01ca8ced10"
 
 [[files]]
 file = "config/vmp.properties"
-hash = "2f35474f804404614f4ac08cbc07cba099bf843a81fd7da477ae57ae9d325400"
+hash = "9ac7327adcaa6466acebc096cef74502f330fa70df883618fb3ba6467c1d1557"
 
 [[files]]
 file = "config/worldplaytime/config.json"
@@ -522,7 +658,7 @@ hash = "3e0ee20dd4023742a6eb44a0ca48512e6d28814825172bc893081543b11b928d"
 
 [[files]]
 file = "config/xaerominimap_entities.json"
-hash = "c63fa9862b71e4d7d39f0ba3c214ec8482c622d960574003eabe56dd021cbead"
+hash = "d44155ad6524baf93af689dcc2f7bab16d1989475f4c91a88ee526687e4957ec"
 
 [[files]]
 file = "config/xaeropatreon.txt"
@@ -541,6 +677,10 @@ file = "config/yacl.json5"
 hash = "d26a63d3cdf326412ba86dcc2781060bc53ed6c74ac7808e65325452e264e820"
 
 [[files]]
+file = "config/yungscavebiomes-fabric-1_20_1.toml"
+hash = "17ae165475207f045d6102dc6113d8547209919d30cf5fdc546cd80a84f2302a"
+
+[[files]]
 file = "config/zombieawareness/ClientConfig.toml"
 hash = "65e585523831b0f28598b37ab39bde4023c768bb867dfe7d38d644d54318713f"
 
@@ -550,7 +690,7 @@ hash = "43d17cd9f3ff3a445476eea73b5bffd3bb496b9fdd8466afb6028dc3524ce924"
 
 [[files]]
 file = "config/zombieawareness/General.toml"
-hash = "4945eedb0275ec025536021d56a5294ce736ef0d9b00788e13d8315c4c6d939f"
+hash = "6ed7316ace0ff5b5bc42cdad39b1c0e965aa08715391f19c88fea1b29a778c21"
 
 [[files]]
 file = "config/zombieawareness/MobLists.toml"
