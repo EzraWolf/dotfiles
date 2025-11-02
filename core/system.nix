@@ -62,5 +62,10 @@
     nerd-fonts.symbols-only # Noto is superior but symbols are cool
   ];
 
+  zramSwap = {
+    enable = true;
+    memoryPercent = 50; # Use up to 50% RAM as compressed swap
+  };
+
   system.stateVersion = vars.version;
 }
