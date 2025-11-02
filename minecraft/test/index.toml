@@ -977,6 +977,11 @@ hash = "0f216db3128afc42f79768892a070568ccafe36c78d1293ebe69df005d8f634a"
 metafile = true
 
 [[files]]
+file = "mods/tectonic.pw.toml"
+hash = "3ce65bbd6d1d89a1723b8088e2c798bfa3d49288fd3b06bf879d4ebc2f40184b"
+metafile = true
+
+[[files]]
 file = "mods/tenshilib.pw.toml"
 hash = "f834c8a1a0cea26deb377606bdf00f065304fe2c87828984b93dc6b4ee49691f"
 metafile = true
