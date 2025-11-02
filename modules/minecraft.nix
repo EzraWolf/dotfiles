@@ -9,7 +9,7 @@
 }: let
   modpack = pkgs.fetchPackwizModpack {
     url = "https://raw.githubusercontent.com/EzraWolf/dotfiles/refs/heads/T2/minecraft/test/pack.toml";
-    packHash = "sha256-7sjhNEYs+rw7mrr0BVLjbP+tsPdxIUcWDOdLbroNV8g=";
+    packHash = "sha256-Nq9ZKJ1RvWgsKVjF0F2pJRmKmpD0nodehfPLltJ8q9c=";
   };
 in {
   imports = [inputs.nix-minecraft.nixosModules.minecraft-servers];
@@ -31,13 +31,13 @@ in {
           white-list = true;
           max-players = 16;
           motd = "Bruh";
-          level-seed = "85425578410475571";
+          level-seed = "misery";
 
           gamemode = "survival";
           difficulty = "normal";
 
-          view-distance = 32;
-          simulation-distance = 32;
+          view-distance = 12;
+          simulation-distance = 12;
         };
 
         whitelist = {
@@ -68,7 +68,7 @@ in {
           # "options.txt" = "${modpack}/options.txt";
         };
 
-        jvmOpts = "-Xms8G -Xmx8G -XX:+UseG1GC";
+        jvmOpts = "-Xms4G -Xmx4G -XX:+UseG1GC";
       };
 
       vanilla = {
