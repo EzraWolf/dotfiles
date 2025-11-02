@@ -9,7 +9,7 @@
 }: let
   modpack = pkgs.fetchPackwizModpack {
     url = "https://raw.githubusercontent.com/EzraWolf/dotfiles/refs/heads/T2/minecraft/test/pack.toml";
-    packHash = "sha256-iR/EwRXoEWzIfHYTxe5oeitA5/uiUtpr4nFBENPQCSw=";
+    packHash = "sha256-iR/EgRXoEWzIfHYTxe5ieitA5/uiUtpr4nFBENPQCSw=";
   };
 in {
   imports = [inputs.nix-minecraft.nixosModules.minecraft-servers];
@@ -68,11 +68,11 @@ in {
           # "options.txt" = "${modpack}/options.txt";
         };
 
-        jvmOpts = "-Xms4G -Xmx4G -XX:+UseG1GC";
+        jvmOpts = "-Xms6G -Xmx6G -XX:+UseG1GC";
       };
 
       vanilla = {
-        enable = true;
+        enable = false;
         autoStart = true;
         package = pkgs.vanillaServers.vanilla-1_20_1;
 
