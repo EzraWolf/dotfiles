@@ -774,11 +774,6 @@ hash = "86e4571591a7203cc56f67d5ecec578deae2d14444f43e87324de79ecb6278df"
 metafile = true
 
 [[files]]
-file = "mods/better-combat.pw.toml"
-hash = "9f92d063b29316733455bcf5ca2c0f77f31a479d9c0ceb8c3557da177691131c"
-metafile = true
-
-[[files]]
 file = "mods/better-compatibility-checker.pw.toml"
 hash = "f060633ec58d2c5498c963d00de015e3946ee8a1bc1043f7bc4782ddcf44051f"
 metafile = true
@@ -949,8 +944,8 @@ hash = "aafc36d4ffdbeb024d0cf535d0ebccc10313530e1e8b096fd65132397df1f9e9"
 metafile = true
 
 [[files]]
-file = "mods/improved-mobs.pw.toml"
-hash = "d116f395a7ea0e64ee4a3139309881f60792fe768a7ac4ea5779b99c70cceb41"
+file = "mods/jamlib.pw.toml"
+hash = "a51d746fdd98949eb47b83a9da95a1121fd7163601e901d986e57b1d2aca7950"
 metafile = true
 
 [[files]]
@@ -1059,13 +1054,18 @@ hash = "fe85eb7e13d32999eb376d154be220d82134c534a3f066fa263fb4af11535232"
 metafile = true
 
 [[files]]
+file = "mods/rightclickharvest.pw.toml"
+hash = "a900fde25ea70ce75001d28cb2bdec27b6ff49fd3edee938ff7994fe84843497"
+metafile = true
+
+[[files]]
 file = "mods/rotten-flesh-to-leather-mod-fabric.pw.toml"
 hash = "789fc1f6e5503999e5188fdb0e15bf3aad6acd1f2788bed9331bbc4978270703"
 metafile = true
 
 [[files]]
-file = "mods/sleep.pw.toml"
-hash = "86ab8bb190e6a7d7fdb03388bc20472ca6233749895a42e48f4a4425477c887c"
+file = "mods/sleep-warp.pw.toml"
+hash = "5e82bea9bdad60e2a41ed8d16d71bc47978d8d25e3f84e134d05d4b6cb1613ac"
 metafile = true
 
 [[files]]
@@ -1226,9 +1226,4 @@ metafile = true
 [[files]]
 file = "mods/yungs-better-strongholds.pw.toml"
 hash = "b2af03e504a1827f2f6fc09597e7d51f4ecd64ab1ebb329a9eb9ffb98372673a"
-metafile = true
-
-[[files]]
-file = "mods/zombie-awareness.pw.toml"
-hash = "d7651d3c0b4223a2df4af7d72636e7bf80c558dc351065c7431db4147c215ab4"
 metafile = true

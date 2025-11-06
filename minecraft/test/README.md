@@ -42,8 +42,9 @@ packwiz modrinth add https://modrinth.com/mod/rotten-flesh-to-leather-mod-fabric
 packwiz modrinth add https://modrinth.com/mod/snow-real-magic/version/QVh65fYg
 packwiz modrinth add https://modrinth.com/mod/snow-under-trees-remastered/version/2.5.4+1.20.1
 packwiz modrinth add https://modrinth.com/mod/survivality/version/1.3.1
-packwiz modrinth add https://modrinth.com/datapack/sleep/version/v2.1.3+mod
+packwiz modrinth add https://modrinth.com/mod/sleep-warp/version/2.2.0-rc1+1.20.1
 packwiz modrinth add https://modrinth.com/mod/cosmetic-armor/version/1.6.0
+packwiz modrinth add https://modrinth.com/mod/rightclickharvest/version/4.6.0+1.20.1
 
 Fabric Vanilla+
 
