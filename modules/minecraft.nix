@@ -9,7 +9,7 @@
 }: let
   modpack = pkgs.fetchPackwizModpack {
     url = "https://raw.githubusercontent.com/EzraWolf/dotfiles/refs/heads/T2/minecraft/french-vanilla-server/pack.toml";
-    packHash = "sha256-jvYklf6gf3bNVAaaB7Gyh67aV2g7PU6OxElRLH/B6mk=";
+    packHash = "sha256-cpti2aRF1Nza/xROxal0u+J6GMFWvPWkqu9yVzpnH7Y=";
   };
 in {
   imports = [inputs.nix-minecraft.nixosModules.minecraft-servers];
@@ -46,7 +46,7 @@ in {
           c = "6bb02585-a970-4206-89f6-0654a4600736";
           d = "76e4f93b-6d75-4dc1-9bb1-a43feaffb94d";
           e = "7f2bd047-3516-43ec-967d-48bb5e535519";
-          f = "2852ae6e-c099-43de-8aab-995638ead7de";
+          # f = "2852ae6e-c099-43de-8aab-995638ead7de"; # Permaban
           g = "9a2b04c0-d631-4bc8-8ae4-64dc770468e8";
           h = "72967380-6fcb-4afd-9074-c241b1c4d11d";
           i = "7bcab96d-c7ec-4d81-914a-5e9a5504cf3d";
