@@ -1,5 +1,9 @@
 # Exclude exported CurseForge zip files
-# *.zip # Removes Terra's config pack unfortunately
+*.zip # Removes Terra's config pack unfortunately
+!config/Terra/addons/*
+!config/Terra/addons/bootstrap/*
+!config/Terra/packs/*
+
 
 # Exclude exported Modrinth modpacks
 *.mrpack
