@@ -1,10 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "README.md"
-hash = "3a8c1af4164913031b5095eea15ec64bc245e9f30af1e2ffa8653b5b6befa2aa"
-
-[[files]]
 file = "config/HorseBuff.toml"
 hash = "ddbebe1a8833b3717eeec13dcb214d82b5c66abf5c943676141d5a11ee9085b2"
 
