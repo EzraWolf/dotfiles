@@ -1,0 +1,13 @@
+name = "Actually Harvest"
+filename = "actuallyharvest-1.20.1-1.1.3.6-FABRIC.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/sUbuUC7R/versions/OkqorgLZ/actuallyharvest-1.20.1-1.1.3.6-FABRIC.jar"
+hash-format = "sha512"
+hash = "240679a172f18141de05e03101e337351881aa4e87f7edffff67318d4a621709628fba7f5d8d2e37975dee641a17b1cbb7d8a3cac54226b5965b2eaf746c257b"
+
+[update]
+[update.modrinth]
+mod-id = "sUbuUC7R"
+version = "OkqorgLZ"

@@ -9,7 +9,7 @@
 }: let
   modpack = pkgs.fetchPackwizModpack {
     url = "https://raw.githubusercontent.com/EzraWolf/dotfiles/refs/heads/T2/minecraft/test/pack.toml";
-    packHash = "sha256-ns7T03XrqzhpUi1XIvgGf+3QT9B9FOBL7ZUndGA6Tx0=";
+    packHash = "sha256-jvYklf6gf3bNVAabB7Gyh67aV2g7PU6OxElRLH/B6mk=";
   };
 in {
   imports = [inputs.nix-minecraft.nixosModules.minecraft-servers];

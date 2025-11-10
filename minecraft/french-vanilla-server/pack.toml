@@ -1,13 +1,13 @@
-name = "French Vanilla"
+name = "French Vanilla Server"
 author = "Ezra Wolf"
-version = "1.5.5"
+version = "1.7.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "9f389cbd5a50981720255307c47764f2aca822adde4e1d771293d47f40503552"
+hash = "6d28216bdb1d6a6eeaa6e11a3fc80142509d51624060c10f4e53a93340e27df6"
 
 [versions]
-fabric = "0.17.3"
+fabric = "0.18.0"
 minecraft = "1.20.1"

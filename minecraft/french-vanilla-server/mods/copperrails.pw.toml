@@ -1,0 +1,13 @@
+name = "Copper Rails"
+filename = "copperrails-1.0.5+mc1.20.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/vdIUVEqI/versions/E4ot4R0D/copperrails-1.0.5%2Bmc1.20.jar"
+hash-format = "sha512"
+hash = "1bccf01b365e9881afceb93b327fd7c57e1597bbf154fd222f31c3640190b2e6ec5f96baad31c78d643debd53e7db60b806e409ddeea0fe2b07a3d6b70b67671"
+
+[update]
+[update.modrinth]
+mod-id = "vdIUVEqI"
+version = "E4ot4R0D"
